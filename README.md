@@ -1,1 +1,1 @@
-"# RAG_MTG_Cards" 
+# RAG_MTG_Cards
