@@ -43,11 +43,11 @@ c.execute('''CREATE TABLE IF NOT EXISTS vectordb
              (id INTEGER PRIMARY KEY, name TEXT, card_text TEXT, vector BLOB)''')
 
 # Encode and save the encodings along with the corresponding indices, name, and text
-for i, (name, chunked) in enumerate(tqdm(zip(chunked_names, chunked_data), desc="Encoding and saving")):
-    encodings = angle.encode(chunked, to_numpy=True)
+for i, (names, chunked) in enumerate(tqdm(zip(chunked_names, chunked_data), desc="Encoding and saving")):
+    encodings = angle.encode(names, to_numpy=True)
     
     c.execute("INSERT INTO vectors (id, name, text, vector) VALUES (?, ?, ?, ?)",
-              (i, name, chunked, encodings.tobytes()))
+              (i, names, chunked, encodings.tobytes()))
 
 conn.commit()
 conn.close()
