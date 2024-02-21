@@ -13,6 +13,10 @@ model = AutoModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.1
 vector_db_name = "raw/full_card_vector_database.db"
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+if torch.cuda.device_count() > 1:
+    print("Let's use", torch.cuda.device_count(), "GPUs!")
+    model = torch.nn.DataParallel(model)
+
 model.to(device)
 
 def semantic_search(query, vector_db_name, number_chunks = 5):
@@ -52,7 +56,7 @@ def rag_query(query, model, tokenizer):
     
     \n{prompt_prefix}
     
-    Use only the data in the provided chunks above.
+    Use only the data in the provided chunks above. [/INST]
     """
     
     message = [{
