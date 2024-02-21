@@ -3,21 +3,18 @@ import numpy as np
 from tqdm import tqdm
 from scipy.spatial.distance import cosine
 from angle_emb import AnglE
-from transformers import AutoTokenizer, AutoModelForCausalLM
-import torch
+import os
+import configparser
+from openai import OpenAI
+
+config = configparser.ConfigParser()
+config.read('config.ini')
+OPENAI_API_KEY = config['API_KEYS']['OPENAI_API_KEY']
 
 angle = AnglE.from_pretrained('WhereIsAI/UAE-Large-V1', pooling_strategy='cls')
-tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.1")
-model = AutoModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.1")
 
 vector_db_name = "raw/full_card_vector_database.db"
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-if torch.cuda.device_count() > 1:
-    print("Let's use", torch.cuda.device_count(), "GPUs!")
-    model = torch.nn.DataParallel(model)
-
-model.to(device)
 
 def semantic_search(query, vector_db_name, number_chunks = 5):
     conn = sqlite3.connect(vector_db_name)
@@ -43,7 +40,7 @@ def semantic_search(query, vector_db_name, number_chunks = 5):
 
     return [(match[1], match[2]) for match in top_matches]
 
-def rag_query(query, model, tokenizer):
+def rag_query(query):
     chunks = semantic_search(query, vector_db_name, 3)
     
     prompt_prefix = ""
@@ -58,28 +55,14 @@ def rag_query(query, model, tokenizer):
     
     Use only the data in the provided chunks above. [/INST]
     """
-    
-    message = [{
-        "role":"user",
-        "content": prompt
-    }]
-    
-    model_inputs = tokenizer.apply_chat_template(
-        message,
-        return_tensors = "pt",
-    )
-    
-    model_inputs = {key: tensor.to(device) for key, tensor in model_inputs.items()}
-    
-    generated_ids = model.generate(
-        model_inputs,
-        max_new_tokens = 1000,
-        do_sample = True
-    )
-    
-    decoded = tokenizer.batch_decode(generated_ids)
-    print(decoded)
-    
-    return decoded[0]
 
-rag_query("Elesh Norn, Grand Cenobite", None, tokenizer)
+    
+    client = OpenAI(api_key = OPENAI_API_KEY)
+
+    response = client.chat.completions.create(
+      model="gpt-3.5-turbo",
+      messages=[
+        {"role": "user", "content": prompt},
+      ]
+    )
+    return response.choices[0].message.content
