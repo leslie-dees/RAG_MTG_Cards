@@ -1,52 +1,53 @@
-import json
 import pandas as pd
 from angle_emb import AnglE
+import sqlite3
+from tqdm import tqdm
 
 df = pd.read_csv("raw/filtered_oracle_database.csv")
 
 formatted_rows = []
+card_names = []
 for index, row in df.iterrows():
     formatted_row = ""
     for column_name, value in row.items():
-        if column_name == "name":
-            formatted_row += f"{column_name}: {value}\n"
+        formatted_row += f"{column_name}: {value}\n"
+    card_names.append(row['name'])
     formatted_rows.append(formatted_row.strip())
 
 # Chunk data into 5 card piles with 2 newlines between each card
 chunked_data = []
+chunked_names = []
 current_chunk = ""
-for row in formatted_rows:
+current_name_chunk = ""
+for i, row in enumerate(formatted_rows):
     current_chunk += row + "\n\n"
+    current_name_chunk += card_names[i] + "\n"
     if len(current_chunk.split('\n\n')) == 6:  # Each chunk contains 5 cards and 1 extra newline character
         chunked_data.append(current_chunk.strip())
         current_chunk = ""
+        chunked_names.append(current_name_chunk.strip())
+        current_name_chunk = ""
 
 # If there are remaining cards not included in chunks
 if current_chunk:
     chunked_data.append(current_chunk.strip())
+    chunked_names.append(current_name_chunk.strip())
 
-
+# Use embeddings model with high semantic accuracy
 angle = AnglE.from_pretrained('WhereIsAI/UAE-Large-V1', pooling_strategy='cls').cuda()
 
-import sqlite3
-from tqdm import tqdm
-
-# Connect to the database
-conn = sqlite3.connect('raw/card_name_vector_database.db')
+conn = sqlite3.connect('raw/full_card_vector_database.db')
 c = conn.cursor()
 
-# Create table
 c.execute('''CREATE TABLE IF NOT EXISTS vectors
-             (id INTEGER PRIMARY KEY, text TEXT, vector BLOB)''')
+             (id INTEGER PRIMARY KEY, name TEXT, card_text TEXT, vector BLOB)''')
 
-# Encode and save the encodings along with the corresponding indices
-for i, chunked in enumerate(tqdm(chunked_data, desc="Encoding and saving")):
+# Encode and save the encodings along with the corresponding indices, name, and text
+for i, (name, chunked) in enumerate(tqdm(zip(chunked_names, chunked_data), desc="Encoding and saving")):
     encodings = angle.encode(chunked, to_numpy=True)
     
-    # Insert the encoded chunk and its corresponding text into the database
-    c.execute("INSERT INTO vectors (id, text, vector) VALUES (?, ?, ?)",
-              (i, chunked, encodings.tobytes()))
+    c.execute("INSERT INTO vectors (id, name, text, vector) VALUES (?, ?, ?, ?)",
+              (i, name, chunked, encodings.tobytes()))
 
-# Commit changes and close the connection
 conn.commit()
 conn.close()
