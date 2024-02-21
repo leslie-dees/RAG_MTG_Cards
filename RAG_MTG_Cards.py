@@ -3,24 +3,17 @@ import numpy as np
 from tqdm import tqdm
 from scipy.spatial.distance import cosine
 from angle_emb import AnglE
-import transformers
+from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
-angle = AnglE.from_pretrained('WhereIsAI/UAE-Large-V1', pooling_strategy='cls').cuda()
-
-compute_dtype = torch.float16
-cache_path    = ''
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-model_id      = "mobiuslabsgmbh/aanaphi2-v0.1"
-model         = transformers.AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=compute_dtype, 
-                                                                  cache_dir=cache_path,
-                                                                  device_map=device)
-tokenizer     = transformers.AutoTokenizer.from_pretrained(model_id, cache_dir=cache_path)
-
+angle = AnglE.from_pretrained('WhereIsAI/UAE-Large-V1', pooling_strategy='cls')
+tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.1")
+model = AutoModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.1")
 
 vector_db_name = "raw/full_card_vector_database.db"
 
-model.eval();
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model.to(device)
 
 def semantic_search(query, vector_db_name, number_chunks = 5):
     conn = sqlite3.connect(vector_db_name)
@@ -46,14 +39,6 @@ def semantic_search(query, vector_db_name, number_chunks = 5):
 
     return [(match[1], match[2]) for match in top_matches]
 
-@torch.no_grad()
-def generate(prompt, max_length=1024):
-    prompt_chat = prompt
-    inputs      = tokenizer(prompt_chat, return_tensors="pt", return_attention_mask=True).to('cuda')
-    outputs     = model.generate(**inputs, max_length=max_length, eos_token_id= tokenizer.eos_token_id) 
-    text        = tokenizer.batch_decode(outputs[:,:-1])[0]
-    return text
-
 def rag_query(query, model, tokenizer):
     chunks = semantic_search(query, vector_db_name, 3)
     
@@ -61,17 +46,36 @@ def rag_query(query, model, tokenizer):
     for chunk in chunks:
         prompt_prefix += chunk[0]+"/n/n"
     
-    prompt = f"""### Human: Given the following card data, provide me with the exact text of {query} in the format of :
+    prompt = f"""[INST]
+    Given the following card data, provide me with the exact text of {query} in the format of :
     \nname: \nmana_cost: \ncmc: \ntype_line: \noracle_text: \npower: \ntoughness: \ncolors: \ncolor_identity: \nkeywords:
     
     \n{prompt_prefix}
     
     Use only the data in the provided chunks above.
-   
-    ### Assistant:
     """
     
-    print(generate(prompt))
+    message = [{
+        "role":"user",
+        "content": prompt
+    }]
     
+    model_inputs = tokenizer.apply_chat_template(
+        message,
+        return_tensors = "pt",
+    )
+    
+    model_inputs = {key: tensor.to(device) for key, tensor in model_inputs.items()}
+    
+    generated_ids = model.generate(
+        model_inputs,
+        max_new_tokens = 1000,
+        do_sample = True
+    )
+    
+    decoded = tokenizer.batch_decode(generated_ids)
+    print(decoded)
+    
+    return decoded[0]
 
 rag_query("Elesh Norn, Grand Cenobite", None, tokenizer)
