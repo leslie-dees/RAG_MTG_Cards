@@ -8,7 +8,8 @@ formatted_rows = []
 for index, row in df.iterrows():
     formatted_row = ""
     for column_name, value in row.items():
-        formatted_row += f"{column_name}: {value}\n"
+        if column_name == "name":
+            formatted_row += f"{column_name}: {value}\n"
     formatted_rows.append(formatted_row.strip())
 
 # Chunk data into 5 card piles with 2 newlines between each card
@@ -31,7 +32,7 @@ import sqlite3
 from tqdm import tqdm
 
 # Connect to the database
-conn = sqlite3.connect('card_vector_database.db')
+conn = sqlite3.connect('raw/card_name_vector_database.db')
 c = conn.cursor()
 
 # Create table
