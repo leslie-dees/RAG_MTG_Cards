@@ -39,7 +39,7 @@ angle = AnglE.from_pretrained('WhereIsAI/UAE-Large-V1', pooling_strategy='cls').
 conn = sqlite3.connect('raw/full_card_vector_database.db')
 c = conn.cursor()
 
-c.execute('''CREATE TABLE IF NOT EXISTS vectors
+c.execute('''CREATE TABLE IF NOT EXISTS vectordb
              (id INTEGER PRIMARY KEY, name TEXT, card_text TEXT, vector BLOB)''')
 
 # Encode and save the encodings along with the corresponding indices, name, and text
