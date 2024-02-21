@@ -3,7 +3,7 @@ import numpy as np
 from tqdm import tqdm
 from scipy.spatial.distance import cosine
 from angle_emb import AnglE
-from transformers import AutoTokenizer, AutoModelForCausalLM
+import transformers
 import torch
 
 angle = AnglE.from_pretrained('WhereIsAI/UAE-Large-V1', pooling_strategy='cls').cuda()
