@@ -4,12 +4,16 @@ from tqdm import tqdm
 from scipy.spatial.distance import cosine
 from angle_emb import AnglE
 from transformers import AutoTokenizer, AutoModelForCausalLM
+import torch
 
 angle = AnglE.from_pretrained('WhereIsAI/UAE-Large-V1', pooling_strategy='cls')
 tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.1")
 model = AutoModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.1")
 
 vector_db_name = "raw/full_card_vector_database.db"
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model.to(device)
 
 def semantic_search(query, vector_db_name, number_chunks = 5):
     conn = sqlite3.connect(vector_db_name)
@@ -60,6 +64,8 @@ def rag_query(query, model, tokenizer):
         message,
         return_tensors = "pt",
     )
+    
+    model_inputs = {key: tensor.to(device) for key, tensor in model_inputs.items()}
     
     generated_ids = model.generate(
         model_inputs,
