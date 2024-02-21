@@ -46,7 +46,7 @@ c.execute('''CREATE TABLE IF NOT EXISTS vectordb
 for i, (names, chunked) in enumerate(tqdm(zip(chunked_names, chunked_data), desc="Encoding and saving")):
     encodings = angle.encode(names, to_numpy=True)
     
-    c.execute("INSERT INTO vectorsdb (id, name, text, vector) VALUES (?, ?, ?, ?)",
+    c.execute("INSERT INTO vectordb (id, name, text, vector) VALUES (?, ?, ?, ?)",
               (i, names, chunked, encodings.tobytes()))
 
 conn.commit()
