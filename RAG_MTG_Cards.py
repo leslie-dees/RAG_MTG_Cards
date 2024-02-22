@@ -16,7 +16,7 @@ angle = AnglE.from_pretrained('WhereIsAI/UAE-Large-V1', pooling_strategy='cls')
 vector_db_name = "raw/full_card_vector_database.db"
 
 
-def semantic_search(query, vector_db_name, number_chunks = 5):
+def semantic_search(query, vector_db_name=vector_db_name, number_chunks = 5):
     conn = sqlite3.connect(vector_db_name)
     c = conn.cursor()
 
@@ -40,21 +40,30 @@ def semantic_search(query, vector_db_name, number_chunks = 5):
 
     return [(match[1], match[2]) for match in top_matches]
 
-def rag_query(query):
+def rag_query(query, RAG=True):
     chunks = semantic_search(query, vector_db_name, 3)
     
-    prompt_prefix = ""
-    for chunk in chunks:
-        prompt_prefix += chunk[0]+"/n/n"
-    
-    prompt = f"""[INST]
-    Given the following card data, provide me with the exact text of {query} in the format of :
-    \nname: \nmana_cost: \ncmc: \ntype_line: \noracle_text: \npower: \ntoughness: \ncolors: \ncolor_identity: \nkeywords:
-    
-    \n{prompt_prefix}
-    
-    Use only the data in the provided chunks above. [/INST]
-    """
+    prompt_rag = ""
+    if RAG:
+        chunks = semantic_search(query, vector_db_name, 3)
+
+        prompt_rag = ""
+        for chunk in chunks:
+            prompt_rag += chunk[0]+"\n\n"
+
+        prompt = f"""[INST]
+        Given the following card data, provide me with the exact text of {query} in the format of :
+        \nname: \nmana_cost: \ncmc: \ntype_line: \noracle_text: \npower: \ntoughness: \ncolors: \ncolor_identity: \nkeywords:
+
+        \n{prompt_rag}
+
+        Use only the data in the provided chunks above. [/INST]
+        """
+    else:
+        prompt = f"""[INST]
+        Provide me with the exact text of {query} in the format of :
+        \nname: \nmana_cost: \ncmc: \ntype_line: \noracle_text: \npower: \ntoughness: \ncolors: \ncolor_identity: \nkeywords: [/INST]
+        """
 
     
     client = OpenAI(api_key = OPENAI_API_KEY)

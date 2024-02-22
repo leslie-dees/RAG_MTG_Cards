@@ -1,201 +1,3972 @@
-Card Name,raw-score,RAG-score
-Goldnight Redeemer,,
-Knight of Dawn's Light,,
-Angelic Ascension,,
-Blade of Selves,,
-Raging Kronch,,
-Barbed-Back Wurm,,
-Mordor Trebuchet,,
-Thornwind Faeries,,
-Brushfire Elemental,,
-Owl Familiar,,
-Ojutai's Breath,,
-Bloodfire Dwarf,,
-Fluttershy,,
-Hag of Ceaseless Torment,,
-Homarid Shaman,,
-Witness of the Ages,,
-Gorgon Flail,,
-Howl of the Hunt,,
-Wall of Deceit,,
-Valeron Outlander,,
-Sakashima the Impostor Avatar,,
-Violet Pall,,
-"Kuro, Pitlord",,
-Radjan Spirit,,
-Viscerid Deepwalker,,
-Conspiracy Unraveler,,
-Ichor Synthesizer,,
-Scroll Thief,,
-Ballynock Trapper,,
-Crypt Ghast,,
-Marsh Casualties,,
-Trumpeting Armodon,,
-Spinal Parasite,,
-Caldera Hellion,,
-Valiant Guard,,
-Sacred Peaks,,
-"Kethek, Crucible Goliath",,
-Ricochet Trap,,
-Mulldrifter,,
-Lavafume Invoker,,
-Bitter Triumph,,
-Stampeding Rhino,,
-Discover the Impossible,,
-Lazier Goblin,,
-Wildfire Cerberus,,
-Vengeful Warchief,,
-Dream Pillager,,
-Sunblade Samurai,,
-Red Mana Battery,,
-A-Prosperous Thief,,
-Ice Out,,
-Protean War Engine,,
-Bloodchief Ascension,,
-Pious Interdiction,,
-Togglodyte,,
-"Odric, Lunarch Marshal",,
-Watcher of the Roost,,
-Galadhrim Brigade,,
-Seachrome Coast,,
-Myr,,
-Brassclaw Orcs,,
-Mirkwood Channeler,,
-The Great Henge,,
-Blade Sliver,,
-"Ashiok, Wicked Manipulator",,
-A-Moon-Circuit Hacker,,
-Sickening Shoal,,
-Universal Solvent,,
-Flawless Forgery,,
-"Rukarumel, Biologist",,
-One-Clown Band,,
-Swarmborn Giant,,
-Will of the All-Hunter,,
-Draconic Disciple,,
-Cephalid Shrine,,
-"Keranos, God of Storms",,
-"Lukamina, Moon Druid",,
-Reincarnation,,
-Bloodfire Enforcers,,
-Invoke the Ancients,,
-Defensive Stance,,
-Death Pit Offering,,
-Vault of Whispers,,
-"Slimefoot, the Stowaway",,
-Merciless Resolve,,
-Tajuru Blightblade,,
-Nature Shields Its Own,,
-Runed Stalactite,,
-Crumble,,
-Cunning Nightbonder,,
-Vecna,,
-Drowner Initiate,,
-Spotted Griffin,,
-Fool's Tome,,
-Indestructibility,,
-School of Piranha,,
-Hive Mind,,
-Nothic,,
-Seismic Strike,,
-Pirate's Landing,,
-Irenicus's Vile Duplication,,
-Open the Armory,,
-Backfire,,
-Crystal Seer,,
-Citadel of Pain,,
-Increasing Confusion,,
-Dire Fleet Poisoner,,
-Wrenn and Realmbreaker Emblem,,
-Emblem of the Warmind,,
-Shattergang Brothers,,
-Air Elemental,,
-Fellwar Stone,,
-Bellowing Tanglewurm,,
-Masticore,,
-Glorious Protector,,
-Snare the Skies,,
-Dinosaur Stampede,,
-Searing Spear Askari,,
-"Ghave, Guru of Spores",,
-Freyalise Supplicant,,
-Ayula's Influence,,
-Phantom Nantuko,,
-Llanowar Druid,,
-Aura Graft,,
-Jungle Hollow,,
-Golgari Cluestone,,
-Tranquil Frillback,,
-Sparkshaper Visionary,,
-Necromancer's Familiar,,
-Nova Pentacle,,
-"Brigid, Hero of Kinsbaile",,
-Wizard Replica,,
-True Identity,,
-Bramblesnap,,
-Emperor Mihail II,,
-Multiclass Baldric,,
-Brass Gnat,,
-Monk,,
-Deal Broker,,
-Heal,,
-Shipwreck Marsh,,
-Sylvan Basilisk,,
-Conjurer's Ban,,
-Incremental Blight,,
-Overflowing Insight,,
-Bristling Boar,,
-Mischief and Mayhem,,
-Rubblebelt Maaka,,
-Seeker of Slaanesh,,
-Needletooth Raptor,,
-Stymied Hopes,,
-Marble Gargoyle,,
-Waxmane Baku,,
-A-Asari Captain,,
-Curse of Echoes,,
-Colossus Hammer,,
-King's Assassin,,
-Dark Privilege,,
-Giant Fire Beetles,,
-Drake Familiar,,
-Soul Spike,,
-Duelcraft Trainer,,
-Ley Weaver,,
-Plague Wind,,
-Go-Shintai of Life's Origin,,
-Tiefling Outcasts,,
-"Sarkhan, the Dragonspeaker",,
-Necropouncer,,
-Explore the Underdark,,
-Cast into Darkness,,
-Teddy Bear,,
-Prize Pig,,
-Leafdrake Roost,,
-Tempt with Vengeance,,
-Scab-Clan Mauler,,
-Joven,,
-Signature Spells,,
-Devastate,,
-Voracious Typhon,,
-Klauth's Will,,
-Coiling Woodworm,,
-"Rem Karolus, Stalwart Slayer",,
-Urza's Hot Tub,,
-Man of Measure,,
-"Ojer Axonil, Deepest Might // Temple of Power",,
-Enduring Bondwarden,,
-Fleetwheel Cruiser,,
-Leaf Arrow,,
-Staff of the Flame Magus,,
-Contractual Safeguard,,
-Cyclone Sire,,
-Soliton,,
-Curate,,
-Nomads' Assembly,,
-Nihiloor,,
-Ayesha Tanaka,,
-Soulstinger,,
-Storm Strike,,
-Magus of the Bazaar,,
-Hindering Light,,
+,Card Name,raw-score,RAG-score,RAG Output,Base Output
+0,Goldnight Redeemer,,,"name: Goldnight Redeemer
+mana_cost: {4}{W}{W}
+cmc: 6.0
+type_line: Creature — Angel
+oracle_text: Flying
+When Goldnight Redeemer enters the battlefield, you gain 2 life for each other creature you control.
+power: 4
+toughness: 4
+colors: ['W']
+color_identity: ['W']
+keywords: ['Flying']","name: Goldnight Redeemer
+mana_cost: {4}{W}
+cmc: 5
+type_line: Creature - Angel
+oracle_text: Flying, When Goldnight Redeemer enters the battlefield, you gain 2 life for each other creature you control.
+power: 4
+toughness: 4
+colors: White
+color_identity: White
+keywords: Flying"
+1,Knight of Dawn's Light,,,"name: Knight of Dawn's Light
+mana_cost: {1}{W}
+cmc: 2.0
+type_line: Creature — Human Knight
+oracle_text: First strike
+If you would gain life, you gain that much life plus 1 instead.
+{1}{W}: Knight of Dawn's Light gets +1/+1 until end of turn.
+power: 2
+toughness: 2
+colors: ['W']
+color_identity: ['W']
+keywords: ['First strike']","name: Knight of Dawn's Light
+mana_cost: {3}{W}
+cmc: 4
+type_line: Creature - Human Knight
+oracle_text: Vigilance
+When Knight of Dawn's Light enters the battlefield, if it was kicked, create a 1/1 white Human creature token.
+kicker {2}{W}
+power: 2
+toughness: 2
+colors: White
+color_identity: W
+keywords: Vigilance"
+2,Angelic Ascension,,,"name: Angelic Ascension
+mana_cost: {2}{W}
+cmc: 3.0
+type_line: Instant
+oracle_text: Exile target creature or planeswalker. Its controller creates a 4/4 white Angel creature token with flying.
+power: nan
+toughness: nan
+colors: ['W']
+color_identity: ['W']
+keywords: ['Flying']","name: Angelic Ascension
+mana_cost: {1}{W}
+cmc: 2
+type_line: Instant
+oracle_text: Exile target creature you control, then return that card to the battlefield under your control if it's a creature card. If it's an Angel, put two +1/+1 counters on it.
+colors: White
+color_identity: White
+keywords:"
+3,Blade of Selves,,,"name: Blade of Selves
+mana_cost: {4}
+cmc: 4.0
+type_line: Artifact — Equipment
+oracle_text: Equipped creature has ""Whenever this creature attacks, create a token that's a copy of this creature tapped and attacking that player or planeswalker it's attacking. Exile the tokens at end of combat.""
+Equip {4}
+power: nan
+toughness: nan
+colors: []
+color_identity: []
+keywords: ['Equip']","name: Blade of Selves
+mana_cost: 4
+cmc: 4
+type_line: Artifact - Equipment
+oracle_text: Equipped creature has ""Whenever this creature attacks, create a token that's a copy of this creature tapped and attacking. Exile the token at end of combat.""
+power: 
+toughness: 
+colors: 
+color_identity: 
+keywords: []"
+4,Raging Kronch,,,"name: Raging Kronch
+mana_cost: {3}{R}
+cmc: 4.0
+type_line: Creature — Beast
+oracle_text: Trample
+Whenever Raging Kronch attacks, it gets +2/+0 until end of turn for each other attacking Beast you control.
+power: 3
+toughness: 3
+colors: ['R']
+color_identity: ['R']
+keywords: ['Trample']","name: Raging Kronch
+mana_cost: {1}{R}
+cmc: 2
+type_line: Creature - Elemental Beast
+oracle_text: Trample
+Raging Kronch can't attack or block alone.
+Whenever Raging Kronch attacks, it gets +1/+0 until end of turn for each attacking creature.
+power: 0
+toughness: 1
+colors: Red
+color_identity: R
+keywords: Trample"
+5,Barbed-Back Wurm,,,"name: Barbed-Back Wurm
+mana_cost: {4}{B}
+cmc: 5.0
+type_line: Creature — Wurm
+oracle_text: {B}: Target green creature blocking Barbed-Back Wurm gets -1/-1 until end of turn.
+power: 4
+toughness: 3
+colors: ['B']
+color_identity: ['B']
+keywords: []","name: Barbed-Back Wurm
+mana_cost: 4GG
+cmc: 6
+type_line: Creature - Wurm
+oracle_text: Sacrifice a land: Barbed-Back Wurm gains indestructible until end of turn.
+power: 4
+toughness: 3
+colors: Green
+color_identity: Green
+keywords: indestructible"
+6,Mordor Trebuchet,,,"name: Mordor Trebuchet
+mana_cost: {2}{B}
+cmc: 3.0
+type_line: Artifact Creature — Wall
+oracle_text: Defender
+Whenever you attack with one or more Goblins and/or Orcs, create a 2/1 colorless Construct artifact creature token with flying named Ballistic Boulder that's tapped and attacking. Sacrifice that token at end of combat.
+power: 1
+toughness: 4
+colors: ['B']
+color_identity: ['B']
+keywords: ['Defender']","name: Mordor Trebuchet
+mana_cost: {3}{R}
+cmc: 4
+type_line: Artifact
+oracle_text: {T}: Mordor Trebuchet deals 2 damage to any target.        
+power: 
+toughness: 
+colors: 
+color_identity: R
+keywords: []"
+7,Thornwind Faeries,,,"name: Thornwind Faeries
+mana_cost: {1}{U}{U}
+cmc: 3.0
+type_line: Creature — Faerie
+oracle_text: Flying
+{T}: Thornwind Faeries deals 1 damage to any target.
+power: 1
+toughness: 1
+colors: ['U']
+color_identity: ['U']
+keywords: ['Flying']","name: Thornwind Faeries
+mana_cost: {2}{U}
+cmc: 3
+type_line: Creature — Faerie
+oracle_text: Flying
+power: 1
+toughness: 1
+colors: Blue
+color_identity: U
+keywords: Flying"
+8,Brushfire Elemental,,,"name: Brushfire Elemental
+mana_cost: {R}{R}
+cmc: 2.0
+type_line: Creature — Elemental
+oracle_text: Trample
+Whenever a land enters the battlefield under your control, Brushfire Elemental gets +2/+2 until end of turn.
+power: 1
+toughness: 1
+colors: ['R']
+color_identity: ['R']
+keywords: ['Trample']","name: Brushfire Elemental
+mana_cost: {R/G}
+cmc: 2
+type_line: Creature - Elemental
+oracle_text: Haste
+{3}{R}{G}: Brushfire Elemental gets +2/+2 until end of turn.
+It can't be blocked by more than one creature.
+power: 1
+toughness: 1
+colors: ['G', 'R']
+color_identity: ['G', 'R']
+keywords: Haste"
+9,Owl Familiar,,,"name: Owl Familiar
+mana_cost: {1}{U}
+cmc: 2.0
+type_line: Creature — Bird
+oracle_text: Flying
+When Owl Familiar enters the battlefield, draw a card, then discard a card.
+power: 1
+toughness: 1
+colors: ['U']
+color_identity: ['U']
+keywords: ['Flying']","name: Owl Familiar
+mana_cost: 1U
+cmc: 2
+type_line: Creature - Bird
+oracle_text: Flying
+power: 1
+toughness: 1
+colors: Blue
+color_identity: U
+keywords: Flying"
+10,Ojutai's Breath,,,"name: Ojutai's Breath
+mana_cost: {2}{U}
+cmc: 3.0
+type_line: Instant
+oracle_text: Tap target creature. It doesn't untap during its controller's next untap step.
+Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
+power: nan
+toughness: nan
+colors: ['U']
+color_identity: ['U']
+keywords: ['Rebound']","name: Ojutai's Breath
+mana_cost: {3}{U}
+cmc: 4
+type_line: Instant
+oracle_text: Tap target creature. It doesn't untap during its controller's next untap step.
+power: 
+toughness: 
+colors: Blue
+color_identity: Blue
+keywords:"
+11,Bloodfire Dwarf,,,"name: Bloodfire Dwarf
+mana_cost: {R}
+cmc: 1.0
+type_line: Creature — Dwarf
+oracle_text: {R}, Sacrifice Bloodfire Dwarf: It deals 1 damage to each creature without flying.
+power: 1
+toughness: 1
+colors: ['R']
+color_identity: ['R']
+keywords: []","name: Bloodfire Dwarf
+mana_cost: {1}{R}
+cmc: 2
+type_line: Creature - Dwarf
+oracle_text: {T}: Bloodfire Dwarf deals 1 damage to each creature without flying.
+power: 1
+toughness: 1
+colors: Red
+color_identity: R
+keywords: None"
+12,Fluttershy,,,"name: Fluttershy
+mana_cost: {1}{G}{W}
+cmc: 3.0
+type_line: Creature — Pegasus
+oracle_text: Flying, Lifelink
+Fluttershy gets +2/+2 as long as you control a card named ""Rainbow Dash"".
+power: 1
+toughness: 2
+colors: ['G', 'W']
+color_identity: ['G', 'W']
+keywords: ['Flying', 'Lifelink']","name: Fluttershy 
+mana_cost: {G}{W}
+cmc: 2
+type_line: Legendary Creature - Pegasus
+oracle_text: When Fluttershy enters the battlefield, create a 1/1 white Bird creature token with flying for each creature token you control.
+power: 2
+toughness: 2
+colors: Green, White
+color_identity: GW
+keywords: Flying"
+13,Hag of Ceaseless Torment,,,"name: Hag of Ceaseless Torment
+mana_cost: {2}{B}
+cmc: 3.0
+type_line: Creature — Hag Warlock
+oracle_text: At the beginning of your upkeep, each opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card.
+power: 2
+toughness: 2
+colors: ['B']
+color_identity: ['B']
+keywords: []","name: Hag of Ceaseless Torment
+mana_cost: {3}{B}{B}
+cmc: 5
+type_line: Creature - Hag
+oracle_text: When Hag of Ceaseless Torment enters the battlefield, target player discards two cards.
+power: 3
+toughness: 3
+colors: Black
+color_identity: Black
+keywords:"
+14,Homarid Shaman,,,"name: Homarid Shaman
+mana_cost: {2}{U}{U}
+cmc: 4.0
+type_line: Creature — Homarid Shaman
+oracle_text: {U}: Tap target green creature.
+power: 2
+toughness: 1
+colors: ['U']
+color_identity: ['U']
+keywords: []","name: Homarid Shaman
+mana_cost: {3}{U}
+cmc: 4
+type_line: Creature - Homarid Shaman
+oracle_text: {U}, {T}: Target player discards a card. Activate this ability only during your turn.
+power: 2
+toughness: 2
+colors: Blue
+color_identity: Blue
+keywords:"
+15,Witness of the Ages,,,"name: Witness of the Ages
+mana_cost: {6}
+cmc: 6
+type_line: Artifact Creature — Golem
+oracle_text: Morph {5} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+power: 4
+toughness: 4
+colors: []
+color_identity: []
+keywords: ['Morph']","name: Witness of the Ages
+mana_cost: {5}
+cmc: 5
+type_line: Artifact Creature - Golem
+oracle_text: {7}{W}{U}{B}{R}{G}: You may cast a legendary sorcery card you own from outside the game without paying its mana cost.
+power: 4
+toughness: 8
+colors: []
+color_identity: [W, U, B, R, G]
+keywords: []"
+16,Gorgon Flail,,,"name: Gorgon Flail
+mana_cost: {2}
+cmc: 2.0
+type_line: Artifact — Equipment
+oracle_text: Equipped creature gets +1/+1 and has deathtouch. (Any amount of damage it deals to a creature is enough to destroy that creature.)
+Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
+power: nan
+toughness: nan
+colors: []
+color_identity: []
+keywords: ['Equip']","name: Gorgon Flail
+mana_cost: {2}{B}
+cmc: 3
+type_line: Equipment
+oracle_text: Equipped creature gets +1/+1 and has deathtouch. (Any amount of damage it deals to a creature is enough to destroy it.)
+Whenever a creature dealt damage by equipped creature this turn dies, you may attach Gorgon Flail to target creature you control.
+Equip {2}
+power: 
+toughness: 
+colors: Black
+color_identity: Black
+keywords: Deathtouch"
+17,Howl of the Hunt,,,"name: Howl of the Hunt
+mana_cost: {2}{R}
+cmc: 3.0
+type_line: Sorcery
+oracle_text: You may discard a Mountain card rather than pay this spell's mana cost.
+Destructive Force deals 5 damage to target creature.
+power: nan
+toughness: nan
+colors: ['R']
+color_identity: ['R']
+keywords: []","name: Howl of the Hunt
+mana_cost: {2}{G}
+cmc: 3
+type_line: Sorcery
+oracle_text: Create two 2/2 green Wolf creature tokens. Flashback {4}{G}
+power: N/A
+toughness: N/A
+colors: Green
+color_identity: Green
+keywords: Flashback"
+18,Wall of Deceit,,,"name: Wall of Deceit
+mana_cost: {1}{U}
+cmc: 2.0
+type_line: Creature — Wall
+oracle_text: Defender (This creature can't attack.)
+{3}: Turn Wall of Deceit face down.
+Morph {U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+power: 0
+toughness: 5
+colors: ['U']
+color_identity: ['U']
+keywords: ['Morph', 'Defender']","name: Wall of Deceit
+mana_cost: {U}
+cmc: 1
+type_line: Creature - Wall
+oracle_text: Defender, flying
+power: 0
+toughness: 5
+colors: Blue
+color_identity: U
+keywords: Defender, flying"
+19,Valeron Outlander,,,"name: Valeron Outlander
+mana_cost: {G}{W}
+cmc: 2.0
+type_line: Creature — Human Scout
+oracle_text: Protection from black
+power: 2
+toughness: 2
+colors: ['G', 'W']
+color_identity: ['G', 'W']
+keywords: ['Protection']","name: Valeron Outlander
+mana_cost: {G}{W}
+cmc: 2
+type_line: Creature - Human Scout
+oracle_text: Protection from black
+power: 2
+toughness: 2
+colors: ['Green', 'White']
+color_identity: ['G', 'W']
+keywords: Protection"
+20,Sakashima the Impostor Avatar,,,"name: Sakashima the Impostor Avatar
+mana_cost: nan
+cmc: 0.0
+type_line: Vanguard
+oracle_text: {2}: Choose a creature you control. It becomes a copy of target creature except for its name.
+power: nan
+toughness: nan
+colors: []
+color_identity: []
+keywords: []","name: Sakashima the Impostor Avatar
+mana_cost: {U}{U}{U}
+cmc: 3
+type_line: Legendary Creature – Avatar
+oracle_text: You may have Sakashima the Impostor Avatar enter the battlefield as a copy of any creature you control, except it has ""Sakashima the Impostor Avatar's legendary rule"" and ""{2}{U}{U}: Return Sakashima the Impostor Avatar to its owner's hand at the beginning of the next end step.""
+power: */*
+toughness: */*
+colors: Blue
+color_identity: Blue
+keywords: Legendary, Shroud"
+21,Violet Pall,,,"name: Violet Pall
+mana_cost: {4}{B}
+cmc: 5.0
+type_line: Creature — Human Assassin
+oracle_text: Deathtouch
+Whenever Violet Pall deals combat damage to a player, that player loses the game.
+power: 3
+toughness: 3
+colors: ['B']
+color_identity: ['B']
+keywords: ['Deathtouch']","name: Violet Pall
+mana_cost: {2}{B}
+cmc: 3
+type_line: Creature - Elemental
+oracle_text: Deathtouch
+power: 3
+toughness: 3
+colors: Black
+color_identity: B
+keywords: Deathtouch"
+22,"Kuro, Pitlord",,,"name: Kuro, Pitlord
+mana_cost: {6}{B}{B}{B}
+cmc: 9.0
+type_line: Legendary Creature — Demon Spirit
+oracle_text: At the beginning of your upkeep, sacrifice Kuro, Pitlord unless you pay {B}{B}{B}{B}.
+Pay 1 life: Target creature gets -1/-1 until end of turn.
+power: 9
+toughness: 9
+colors: ['B']
+color_identity: ['B']
+keywords: []","name: Kuro, Pitlord
+mana_cost: {5}{B}{B}
+cmc: 7
+type_line: Legendary Creature - Demon
+oracle_text: Flying, trample, Pay 3 life: Remove a loyalty counter from a planeswalker.
+power: 9
+toughness: 9
+colors: Black
+color_identity: Black
+keywords: Flying, Trample"
+23,Radjan Spirit,,,"name: Radjan Spirit
+mana_cost: {3}{G}
+cmc: 4.0
+type_line: Creature — Spirit
+oracle_text: {T}: Target creature loses flying until end of turn.
+power: 3
+toughness: 2
+colors: ['G']
+color_identity: ['G']
+keywords: []","name: Radjan Spirit
+mana_cost: {G}{W}
+cmc: 2
+type_line: Creature - Spirit
+oracle_text: Flying
+power: 2
+toughness: 1
+colors: Green, White
+color_identity: GW
+keywords: Flying"
+24,Viscerid Deepwalker,,,"name: Viscerid Deepwalker
+mana_cost: {4}{U}
+cmc: 5.0
+type_line: Creature — Homarid Warrior
+oracle_text: {U}: Viscerid Deepwalker gets +1/+0 until end of turn.
+Suspend 4—{U} (Rather than cast this card from your hand, you may pay {U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
+power: 2
+toughness: 3
+colors: ['U']
+color_identity: ['U']
+keywords: ['Suspend']","name: Viscerid Deepwalker
+mana_cost: {U}{U}
+cmc: 2
+type_line: Creature - Homarid
+oracle_text: {X}{U}: Viscerid Deepwalker gets +1/+0 until end of turn.
+power: 1
+toughness: 1
+colors: Blue
+color_identity: Blue
+keywords: None"
+25,Conspiracy Unraveler,,,"name: Conspiracy Unraveler
+mana_cost: {1}{U/B}{U/B}
+cmc: 3.0
+type_line: Creature — Human Rogue
+oracle_text: Conspiracy Unraveler can't be blocked except by Rogues.
+Whenever you discard one or more nonland cards, you may exile one of them from your graveyard. If you do, you may cast it this turn.
+power: 2
+toughness: 2
+colors: ['B', 'U']
+color_identity: ['B', 'U']
+keywords: []","name: Conspiracy Unraveler
+mana_cost: {4}{U}{U}
+cmc: 6
+type_line: Creature - Merfolk Wizard
+oracle_text: Flash
+As Conspiracy Unraveler enters the battlefield, choose a creature type.
+Creatures your opponents control of the chosen type get -2/-0.
+power: 2
+toughness: 4
+colors: Blue
+color_identity: Blue
+keywords: Flash"
+26,Ichor Synthesizer,,,"name: Ichor Synthesizer
+mana_cost: {1}{U}
+cmc: 2.0
+type_line: Creature — Phyrexian Wizard
+oracle_text: Whenever you cast a noncreature spell, put an oil counter on Ichor Synthesizer.
+As long as Ichor Synthesizer has four or more oil counters on it, it gets +2/+0 and can't be blocked.
+power: 1
+toughness: 3
+colors: ['U']
+color_identity: ['U']
+keywords: []","name: Ichor Synthesizer
+mana_cost: {3}{U}{B}
+cmc: 5
+type_line: Creature - Ooze
+oracle_text: {T}: Add {C}.
+{1}{U}{B}, {T}: Ichor Synthesizer gets +1/-1 until end of turn.
+power: 1
+toughness: 4
+colors: Blue, Black
+color_identity: UB
+keywords: None"
+27,Scroll Thief,,,"name: Scroll Thief
+mana_cost: {2}{U}
+cmc: 3.0
+type_line: Creature — Merfolk Rogue
+oracle_text: Whenever Scroll Thief deals combat damage to a player, you may draw a card.
+power: 1
+toughness: 3
+colors: ['U']
+color_identity: ['U']
+keywords: []","name: Scroll Thief
+mana_cost: {2}{U}
+cmc: 3
+type_line: Creature - Merfolk Rogue
+oracle_text: Whenever Scroll Thief deals combat damage to a player, draw a card.
+power: 1
+toughness: 3
+colors: Blue
+color_identity: U
+keywords: "
+28,Ballynock Trapper,,,"name: Ballynock Trapper
+mana_cost: {3}{W}
+cmc: 4.0
+type_line: Creature — Kithkin Soldier
+oracle_text: {T}: Tap target creature.
+Whenever you cast a white spell, you may untap Ballynock Trapper.
+power: 2
+toughness: 2
+colors: ['W']
+color_identity: ['W']
+keywords: []","name: Ballynock Trapper
+mana_cost: {3}{W}
+cmc: 4
+type_line: Creature - Kithkin Soldier
+oracle_text: Flash (You may cast this spell any time you could cast an instant.)
+When Ballynock Trapper enters the battlefield, you may put target creature on top of its owner's library.
+power: 2
+toughness: 2
+colors: White
+color_identity: W
+keywords: Flash"
+29,Crypt Ghast,,,"name: Crypt Ghast
+mana_cost: {3}{B}
+cmc: 4.0
+type_line: Creature — Spirit
+oracle_text: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)
+Whenever you tap a Swamp for mana, add {B}{B}.
+power: 2
+toughness: 2
+colors: ['B']
+color_identity: ['B']
+keywords: ['Extort']","name: Crypt Ghast
+mana_cost: {3}{B}{B}
+cmc: 5
+type_line: Creature - Spirit
+oracle_text: Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)
+{B}{B}, {T}: Add {B} for each Swamp you control.
+power: 2
+toughness: 2
+colors: [Black]
+color_identity: [Black]
+keywords: Extort"
+30,Marsh Casualties,,,"name: Marsh Casualties
+mana_cost: {B}{B}
+cmc: 2.0
+type_line: Sorcery
+oracle_text: Kicker {3} (You may pay an additional {3} as you cast this spell.)
+Creatures target player controls get -1/-1 until end of turn. If this spell was kicked, those creatures get -2/-2 until end of turn instead.
+power: nan
+toughness: nan
+colors: ['B']
+color_identity: ['B']
+keywords: ['Kicker']        
+        ","name: Marsh Casualties
+mana_cost: {1}{B}
+cmc: 2
+type_line: Sorcery
+oracle_text: Marsh Casualties deals 2 damage to each creature and each player.
+power: 
+toughness: 
+colors: Black
+color_identity: Black
+keywords:"
+31,Trumpeting Armodon,,,"name: Trumpeting Armodon
+mana_cost: {3}{G}
+cmc: 4.0
+type_line: Creature — Elephant
+oracle_text: {1}{G}: Target creature blocks Trumpeting Armodon this turn if able.
+power: 3
+toughness: 3
+colors: ['G']
+color_identity: ['G']
+keywords: []","name: Trumpeting Armodon
+mana_cost: {4}{G}
+cmc: 5
+type_line: Creature - Elephant
+oracle_text: When Trumpeting Armodon enters the battlefield, sacrifice it unless you return a Forest you control to its owner's hand.
+power: 3
+toughness: 3
+colors: Green
+color_identity: Green
+keywords: None"
+32,Spinal Parasite,,,"name: Spinal Parasite
+mana_cost: {5}
+cmc: 5.0
+type_line: Artifact Creature — Insect
+oracle_text: Sunburst (This enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it.)
+Remove two +1/+1 counters from Spinal Parasite: Remove a counter from target permanent.
+power: -1
+toughness: -1
+colors: []
+color_identity: []
+keywords: ['Sunburst']","name: Spinal Parasite
+mana_cost: {B/P}
+cmc: 1
+type_line: Artifact Creature - Insect
+oracle_text: {BP}, {T}: Remove two -1/-1 counters from target creature.
+power: 0
+toughness: 1
+colors: Colorless
+color_identity: Colorless
+keywords: None"
+33,Caldera Hellion,,,"name: Caldera Hellion
+mana_cost: {4}{R}{R}
+cmc: 6.0
+type_line: Creature — Hellion
+oracle_text: Assist (Another player can pay up to {6} of this spell's cost.)
+Trample, haste
+At the beginning of your end step, Caldera Hellion deals 6 damage to each opponent.
+power: 7
+toughness: 1
+colors: ['R']
+color_identity: ['R']
+keywords: ['Assist', 'Haste', 'Trample']","name: Caldera Hellion
+mana_cost: {4}{R}
+cmc: 5
+type_line: Creature - Hellion
+oracle_text: ~ has haste.
+When ~ enters the battlefield, it deals 3 damage to each creature.
+power: 3
+toughness: 3
+colors: Red
+color_identity: Red
+keywords: Haste"
+34,Valiant Guard,,,"name: Valiant Guard
+mana_cost: {W}
+cmc: 1.0
+type_line: Creature — Human Soldier
+oracle_text: nan
+power: 0
+toughness: 3
+colors: ['W']
+color_identity: ['W']
+keywords: []","name: Valiant Guard
+mana_cost: {3}{W}
+cmc: 4
+type_line: Creature - Human Soldier
+oracle_text: Vigilance 
+power: 3
+toughness: 3
+colors: White
+color_identity: White
+keywords: Vigilance"
+35,Sacred Peaks,,,"name: Sacred Peaks
+mana_cost: nan
+cmc: 0.0
+type_line: Land — Mountain Plains
+oracle_text: ({T}: Add {R} or {W}.)
+Sacred Peaks enters the battlefield tapped.
+power: nan
+toughness: nan
+colors: []
+color_identity: ['R', 'W']
+keywords: []","name: Sacred Peaks
+mana_cost: {3}{W}{W}
+cmc: 5
+type_line: Enchantment
+oracle_text: As Sacred Peaks enters the battlefield, you may pay 3 life. If you don't, it enters the battlefield tapped.
+White creature spells you cast cost {1} less to cast.
+power: 
+toughness: 
+colors: White
+color_identity: W
+keywords:"
+36,"Kethek, Crucible Goliath",,,"name: Kethek, Crucible Goliath
+mana_cost: {2}{B}{R}
+cmc: 4.0
+type_line: Legendary Creature — Phyrexian Beast
+oracle_text: At the beginning of your end step, you may sacrifice another creature. If you do, reveal cards from the top of your library until you reveal a nonlegendary creature card with lesser mana value, put it onto the battlefield, then put the rest on the bottom of your library in a random order.
+power: 4
+toughness: 4
+colors: ['B', 'R']
+color_identity: ['B', 'R']
+keywords: []","name: Kethek, Crucible Goliath
+mana_cost: {6}{R}{R}
+cmc: 8
+type_line: Creature - Goliath
+oracle_text: Trample
+When Kethek, Crucible Goliath enters the battlefield, choose one - 
+• Exile target creature with power less than or equal to Kethek’s power. 
+• Kethek deals damage equal to its power to target creature with power less than or equal to its power.
+power: 6
+toughness: 6
+colors: Red
+color_identity: R
+keywords: Trample"
+37,Ricochet Trap,,,"name: Ricochet Trap
+mana_cost: {3}{R}
+cmc: 4.0
+type_line: Instant — Trap
+oracle_text: If an opponent cast a blue spell this turn, you may pay {R} rather than pay this spell's mana cost.
+Change the target of target spell with a single target.
+power: nan
+toughness: nan
+colors: ['R']
+color_identity: ['R']
+keywords: []","name: Ricochet Trap
+mana_cost: 3R
+cmc: 4
+type_line: Instant
+oracle_text: If an opponent cast a blue spell this turn, you may pay R rather than pay Ricochet Trap's mana cost. Change the target of target spell with a single target.
+power: N/A
+toughness: N/A
+colors: Red
+color_identity: Red
+keywords: N/A"
+38,Mulldrifter,,,"name: Mulldrifter
+mana_cost: {4}{U}
+cmc: 5.0
+type_line: Creature — Elemental
+oracle_text: Flying
+When Mulldrifter enters the battlefield, draw two cards.
+Evoke {2}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)
+power: 2
+toughness: 2
+colors: ['U']
+color_identity: ['U']
+keywords: ['Flying', 'Evoke']","name: Mulldrifter
+mana_cost: {4}{U}
+cmc: 5
+type_line: Creature - Elemental
+oracle_text: Flying
+When Mulldrifter enters the battlefield, draw two cards.
+Evoke {2}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)
+power: 2
+toughness: 2
+colors: Blue
+color_identity: Blue
+keywords: Flying"
+39,Lavafume Invoker,,,"name: Lavafume Invoker
+mana_cost: {2}{R}
+cmc: 3.0
+type_line: Creature — Goblin Shaman
+oracle_text: {8}: Creatures you control get +3/+0 until end of turn.
+power: 2
+toughness: 2
+colors: ['R']
+color_identity: ['R']
+keywords: []","name: Lavafume Invoker
+mana_cost: {3}{R}
+cmc: 4
+type_line: Creature - Goblin Wizard
+oracle_text: {8}{R}: Creatures you control get +3/+0 until end of turn.
+power: 2
+toughness: 2
+colors: Red
+color_identity: Red
+keywords: None"
+40,Bitter Triumph,,,"name: Bitter Triumph
+mana_cost: {1}{B}
+cmc: 2.0
+type_line: Instant
+oracle_text: As an additional cost to cast this spell, discard a card or pay 3 life.
+Destroy target creature or planeswalker.
+power: nan
+toughness: nan
+colors: ['B']
+color_identity: ['B']
+keywords: []","name: Bitter Triumph
+mana_cost: {3}{B}
+cmc: 4
+type_line: Sorcery
+oracle_text: Destroy target creature. You gain life equal to its toughness.
+power: 
+toughness: 
+colors: Black
+color_identity: Black
+keywords:"
+41,Stampeding Rhino,,,"name: Stampeding Rhino
+mana_cost: {4}{G}
+cmc: 5.0
+type_line: Creature — Rhino
+oracle_text: Trample
+power: 4
+toughness: 4
+colors: ['G']
+color_identity: ['G']
+keywords: ['Trample']","name: Stampeding Rhino
+mana_cost: {3}{G}{G}
+cmc: 5
+type_line: Creature - Rhino
+oracle_text: Trample
+power: 4
+toughness: 4
+colors: Green
+color_identity: Green
+keywords: Trample"
+42,Discover the Impossible,,,"name: Dust Stalker
+mana_cost: {2}{B}{R}
+cmc: 4.0
+type_line: Creature — Eldrazi
+oracle_text: Devoid (This card has no color.)
+Haste
+At the beginning of each end step, if you control no other colorless creatures, return Dust Stalker to its owner's hand.
+power: 5
+toughness: 3
+colors: []
+color_identity: ['B', 'R']
+keywords: ['Devoid', 'Haste']","name: Discover the Impossible
+mana_cost: {1}{U}{U}
+cmc: 3
+type_line: Instant
+oracle_text: Draw two cards. Scry 2.
+power: 
+toughness: 
+colors: Blue
+color_identity: U
+keywords: Scry"
+43,Lazier Goblin,,,"name: Lazier Goblin
+mana_cost: {R}
+cmc: 1.0
+type_line: Creature — Goblin
+oracle_text: Motivate {3}{R} (This creature can't attack or block unless you have paid its motivate cost once. Motivate only as a sorcery.)
+When Lazier Goblin enters the battlefield, it deals 2 damage to any target.
+power: 2
+toughness: 1
+colors: ['R']
+color_identity: ['R']
+keywords: []","name: Lazier Goblin
+mana_cost: {R}
+cmc: 1
+type_line: Creature - Goblin
+oracle_text: {T}: Lazier Goblin deals 1 damage to any target.
+power: 1
+toughness: 1
+colors: Red
+color_identity: R
+keywords: None"
+44,Wildfire Cerberus,,,"name: Wildfire Cerberus
+mana_cost: {4}{R}
+cmc: 5.0
+type_line: Creature — Dog
+oracle_text: {5}{R}{R}: Monstrosity 1. (If this creature isn't monstrous, put a +1/+1 counter on it and it becomes monstrous.)
+When Wildfire Cerberus becomes monstrous, it deals 2 damage to each opponent and each creature they control.
+power: 4
+toughness: 3
+colors: ['R']
+color_identity: ['R']
+keywords: ['Monstrosity']","name: Wildfire Cerberus
+mana_cost: 5RR
+cmc: 7
+type_line: Creature - Hound
+oracle_text: Creatures your opponents control can't block this turn.
+{5}{R}{R}: Monstrosity 3. (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)
+When Wildfire Cerberus becomes monstrous, it deals 3 damage to each opponent and each creature they control.
+power: 4
+toughness: 3
+colors: Red
+color_identity: Red
+keywords: Monstrosity"
+45,Vengeful Warchief,,,"name: Vengeful Warchief
+mana_cost: {4}{B}
+cmc: 5.0
+type_line: Creature — Orc Warrior
+oracle_text: Whenever you lose life for the first time each turn, put a +1/+1 counter on Vengeful Warchief. (Damage causes loss of life.)
+power: 4
+toughness: 4
+colors: ['B']
+color_identity: ['B']
+keywords: []","name: Vengeful Warchief
+mana_cost: {2}{R}
+cmc: 3
+type_line: Creature - Orc Warrior
+oracle_text: Whenever you lose life for the first time each turn, put a +1/+1 counter on Vengeful Warchief.
+power: 4
+toughness: 4
+colors: Red
+color_identity: R
+keywords:"
+46,Dream Pillager,,,"name: Dream Pillager
+mana_cost: {5}{R}{R}
+cmc: 7.0
+type_line: Creature — Dragon
+oracle_text: Flying
+Whenever Dream Pillager deals combat damage to a player, exile that many cards from the top of your library. Until end of turn, you may cast spells from among those exiled cards.
+power: 4
+toughness: 4
+colors: ['R']
+color_identity: ['R']
+keywords: ['Flying']","name: Dream Pillager
+mana_cost: {3}{R}{R}
+cmc: 5
+type_line: Creature - Dragon
+oracle_text: Flying
+Whenever Dream Pillager deals combat damage to a player, exile that many cards from the top of your library. Until end of turn, you may cast nonland cards exiled this way.
+4/4
+colors: Red
+color_identity: R
+keywords: Flying"
+47,Sunblade Samurai,,,"name: Sunblade Samurai
+mana_cost: {4}{W}
+cmc: 5.0
+type_line: Enchantment Creature — Human Samurai
+oracle_text: Vigilance
+Channel — {2}, Discard Sunblade Samurai: Search your library for a basic Plains card, reveal it, put it into your hand, then shuffle. You gain 2 life.
+power: 4
+toughness: 4
+colors: ['W']
+color_identity: ['W']
+keywords: ['Vigilance', 'Channel']","name: Sunblade Samurai
+mana_cost: {1}{W}
+cmc: 2
+type_line: Creature - Human Samurai
+oracle_text: Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)
+power: 2
+toughness: 2
+colors: White
+color_identity: White
+keywords: Bushido"
+48,Red Mana Battery,,,"name: Red Mana Battery
+mana_cost: {4}
+cmc: 4.0
+type_line: Artifact
+oracle_text: {2}, {T}: Put a charge counter on Red Mana Battery.
+{T}, Remove any number of charge counters from Red Mana Battery: Add {R}, then add an additional {R} for each charge counter removed this way.
+power: nan
+toughness: nan
+colors: []
+color_identity: ['R']
+keywords: []","name: Red Mana Battery
+mana_cost: {4}
+cmc: 4
+type_line: Artifact
+oracle_text: {T}: Put a charge counter on Red Mana Battery.
+{T}, Remove any number of charge counters from Red Mana Battery: Add {R}, then add an additional {R} for each charge counter removed this way.
+colors: []
+color_identity: []
+keywords: []"
+49,A-Prosperous Thief,,,"name: Hoard Robber
+mana_cost: {1}{B}
+cmc: 2.0
+type_line: Creature — Tiefling Rogue
+oracle_text: Whenever Hoard Robber deals combat damage to a player, create a Treasure token. (It's an artifact with ""{T}, Sacrifice this artifact: Add one mana of any color."")
+power: 1
+toughness: 3
+colors: ['B']
+color_identity: ['B']
+keywords: ['Treasure']","name: A-Prosperous Thief
+mana_cost: {1}{U}{B}
+cmc: 3
+type_line: Creature - Human Rogue
+oracle_text: When A-Prosperous Thief enters the battlefield, create a colorless Treasure artifact token with ""{T}, Sacrifice this artifact: Add one mana of any color.""
+power: 2
+toughness: 2
+colors: Blue, Black
+color_identity: Blue, Black
+keywords: None"
+50,Ice Out,,,"name: Ice Out
+mana_cost: {1}{U}
+cmc: 2.0
+type_line: Sorcery
+oracle_text: Return target creature to its owner's hand. If you control a snow land, draw a card.
+power: nan
+toughness: nan
+colors: ['U']
+color_identity: ['U']
+keywords: []","name: Ice Out
+mana_cost: {2}{W}
+cmc: 3
+type_line: Sorcery
+oracle_text: Tap target creature. It doesn't untap during its controller's next untap step.
+colors: White
+color_identity: White
+keywords: None"
+51,Protean War Engine,,,"name: Protean War Engine
+mana_cost: {R}{W}
+cmc: 2.0
+type_line: Artifact — Vehicle
+oracle_text: As Protean War Engine enters the battlefield, draft a card from Protean War Engine's spellbook and exile it.
+Whenever Protean War Engine becomes crewed, until end of turn, it becomes a copy of the exiled card, except it's a Vehicle artifact in addition to its other types.
+Crew 3
+power: 0
+toughness: 4
+colors: ['R', 'W']
+color_identity: ['R', 'W']
+keywords: ['Crew']","name: Protean War Engine
+mana_cost: {5}
+cmc: 5
+type_line: Artifact Creature - Shapeshifter
+oracle_text: Trample
+Protean War Engine enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it.
+Whenever a player casts a spell, you may put a +1/+1 counter on Protean War Engine.
+{3}{G}: Put a +1/+1 counter on Protean War Engine.
+power: 0
+toughness: 0
+colors: []
+color_identity: []
+keywords: Trample"
+52,Bloodchief Ascension,,,"name: Bloodchief Ascension
+mana_cost: {B}
+cmc: 1.0
+type_line: Enchantment
+oracle_text: At the beginning of each end step, if an opponent lost 2 or more life this turn, you may put a quest counter on Bloodchief Ascension. (Damage causes loss of life.)
+Whenever a card is put into an opponent's graveyard from anywhere, if Bloodchief Ascension has three or more quest counters on it, you may have that player lose 2 life. If you do, you gain 2 life.
+power: nan
+toughness: nan
+colors: ['B']
+color_identity: ['B']
+keywords: []","name: Bloodchief Ascension
+mana_cost: {B}
+cmc: 1
+type_line: Enchantment
+oracle_text: At the beginning of each end step, if an opponent lost 2 or more life this turn, you may put a quest counter on Bloodchief Ascension. (Damage causes loss of life.)
+Whenever a card is put into an opponent's graveyard from anywhere, if Bloodchief Ascension has three or more quest counters on it, you may have that player lose 2 life. If you do, you gain 2 life.
+power: 
+toughness: 
+colors: Black
+color_identity: B
+keywords: Quest"
+53,Pious Interdiction,,,"name: Pious Interdiction
+mana_cost: {3}{W}
+cmc: 4.0
+type_line: Enchantment — Aura
+oracle_text: Enchant creature
+When Pious Interdiction enters the battlefield, you gain 2 life.
+Enchanted creature can't attack or block.
+power: nan
+toughness: nan
+colors: ['W']
+color_identity: ['W']
+keywords: ['Enchant']","name: Pious Interdiction
+mana_cost: {3}{W}
+cmc: 4
+type_line: Enchantment - Aura
+oracle_text: Enchant creature
+                     When Pious Interdiction enters the battlefield, you gain 2 life.
+                     Enchanted creature can't attack or block.
+power: 
+toughness: 
+colors: White
+color_identity: W
+keywords:"
+54,Togglodyte,,,"name: Togglodyte
+mana_cost: {3}{B}
+cmc: 4.0
+type_line: Creature — Zombie
+oracle_text: Whenever a player casts a noncreature spell, each of that player's opponents may draw a card.
+power: 2
+toughness: 2
+colors: ['B']
+color_identity: ['B']
+keywords: []","name: Togglodyte
+mana_cost: {3}{R}
+cmc: 4
+type_line: Creature - Human
+oracle_text: Haste
+power: 4
+toughness: 3
+colors: Red
+color_identity: Red
+keywords: Haste"
+55,"Odric, Lunarch Marshal",,,"name: Odric, Lunarch Marshal
+mana_cost: {3}{W}
+cmc: 4.0
+type_line: Legendary Creature — Human Soldier
+oracle_text: At the beginning of each combat, creatures you control gain first strike until end of turn if a creature you control has first strike. The same is true for flying, deathtouch, double strike, haste, hexproof, indestructible, lifelink, menace, reach, skulk, trample, and vigilance.
+power: 3
+toughness: 3
+colors: ['W']
+color_identity: ['W']
+keywords: []","name: Odric, Lunarch Marshal 
+mana_cost: {3}{W}{W} 
+cmc: 5 
+type_line: Legendary Creature - Human Soldier 
+oracle_text: At the beginning of each combat, creatures you control gain first strike until end of turn if a creature you control has first strike. The same is true for flying, deathtouch, double strike, haste, hexproof, indestructible, lifelink, menace, reach, skulk, trample, and vigilance. 
+power: 3 
+toughness: 3 
+colors: White 
+color_identity: W 
+keywords: None"
+56,Watcher of the Roost,,,"name: Watcher of the Roost
+mana_cost: {2}{W}
+cmc: 3.0
+type_line: Creature — Bird Soldier
+oracle_text: Flying
+Morph {3}{W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+When Watcher of the Roost is turned face up, you gain 2 life.
+power: 2
+toughness: 1
+colors: ['W']
+color_identity: ['W']
+keywords: ['Flying', 'Morph']","name: Watcher of the Roost
+mana_cost: {3}{W}
+cmc: 4
+type_line: Creature - Bird Soldier
+oracle_text: Flying
+Morph {2}{W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+When Watcher of the Roost is turned face up, you gain 2 life.
+power: 2
+toughness: 1
+colors: 
+color_identity: W
+keywords: Flying"
+57,Galadhrim Brigade,,,"name: Galadhrim Brigade
+mana_cost: {2}{G}
+cmc: 3.0
+type_line: Creature — Elf Soldier
+oracle_text: Squad {1}{G} (As an additional cost to cast this spell, you may pay {1}{G} any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.)
+Other Elves you control get +1/+1.
+power: 2
+toughness: 2
+colors: ['G']
+color_identity: ['G']
+keywords: ['Squad']","name: Galadhrim Brigade
+mana_cost: {3}{G}
+cmc: 4
+type_line: Creature - Elf Warrior
+oracle_text: Reach
+power: 2
+toughness: 4
+colors: Green
+color_identity: G
+keywords: Reach"
+58,Seachrome Coast,,,"name: Seachrome Coast
+mana_cost: nan
+cmc: 0.0
+type_line: Land
+oracle_text: Seachrome Coast enters the battlefield tapped unless you control two or fewer other lands.
+{T}: Add {W} or {U}.
+power: nan
+toughness: nan
+colors: []
+color_identity: ['U', 'W']
+keywords: []","name: Seachrome Coast
+mana_cost: 
+cmc: 0
+type_line: Land - Plains Island
+oracle_text: Seachrome Coast enters the battlefield tapped unless you control two or fewer other lands.
+Tap: Add W or U.
+power: 
+toughness: 
+colors: 
+color_identity: W,U
+keywords:"
+59,Myr,,,"name: Myr
+mana_cost: nan
+cmc: 0.0
+type_line: Token Artifact Creature — Myr
+oracle_text: nan
+power: 1
+toughness: 1
+colors: []
+color_identity: []
+keywords: []","name: Myr
+mana_cost: {1}
+cmc: 1
+type_line: Artifact Creature - Myr
+oracle_text: 
+power: 1
+toughness: 1
+colors: 
+color_identity: 
+keywords:"
+60,Brassclaw Orcs,,,"name: Brassclaw Orcs
+mana_cost: {2}{R}
+cmc: 3.0
+type_line: Creature — Orc
+oracle_text: Brassclaw Orcs can't block creatures with power 2 or greater.
+power: 3
+toughness: 2
+colors: ['R']
+color_identity: ['R']
+keywords: []","name: Brassclaw Orcs
+mana_cost: {2}{R}
+cmc: 3
+type_line: Creature — Orc Warrior
+oracle_text: 
+power: 3
+toughness: 2
+colors: Red
+color_identity: Red
+keywords:"
+61,Mirkwood Channeler,,,"name: Mirkwood Channeler
+mana_cost: {3}{G}
+cmc: 4.0
+type_line: Creature — Elf Druid
+oracle_text: At the beginning of combat on your turn, target Elf you control gains trample and gets +X/+X until end of turn, where X is the number of Forests you control.
+power: 3
+toughness: 3
+colors: ['G']
+color_identity: ['G']
+keywords: []","name: Mirkwood Channeler
+mana_cost: {3}{G}
+cmc: 4
+type_line: Creature - Elf Druid
+oracle_text: When Mirkwood Channeler enters the battlefield, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
+power: 3
+toughness: 3
+colors: Green
+color_identity: G
+keywords:"
+62,The Great Henge,,,"name: The Great Henge
+mana_cost: {7}{G}{G}
+cmc: 9.0
+type_line: Legendary Artifact
+oracle_text: This spell costs {X} less to cast, where X is the greatest power among creatures you control.
+{T}: Add {G}{G}. You gain 2 life.
+Whenever a nontoken creature enters the battlefield under your control, put a +1/+1 counter on it and draw a card.","name: The Great Henge
+mana_cost: {7}{G}
+cmc: 7
+type_line: Legendary Artifact
+oracle_text: This spell costs {X} less to cast, where X is the greatest power among creatures you control.
+     T: Add {G}{G}. You gain 2 life.
+     Whenever a nontoken creature enters the battlefield under your control, put a +1/+1 counter on it and draw a card.
+power: 
+toughness: 
+colors: Green
+color_identity: Green
+keywords: "
+63,Blade Sliver,,,"name: Blade Sliver
+mana_cost: {3}{R}
+cmc: 4.0
+type_line: Creature — Sliver
+oracle_text: All Sliver creatures have double strike. (They deal both first-strike and regular combat damage.)
+power: 2
+toughness: 2
+colors: ['R']
+color_identity: ['R']
+keywords: ['Double strike']","name: Blade Sliver
+mana_cost: {W}{R}
+cmc: 2
+type_line: Creature - Sliver
+oracle_text: All Sliver creatures have first strike.
+power: 1
+toughness: 1
+colors: [W, R]
+color_identity: [W, R]
+keywords: First strike"
+64,"Ashiok, Wicked Manipulator",,,"name: Ashiok, Wicked Manipulator
+mana_cost: {3}{B}{B}
+cmc: 5.0
+type_line: Legendary Planeswalker — Ashiok
+oracle_text: If you would pay life while your library has at least that many cards in it, exile that many cards from the top of your library instead.
++1: Look at the top two cards of your library. Exile one of them and put the other into your hand.
+−2: Create two 1/1 black Nightmare creature tokens with ""At the beginning of combat on your turn, if a card was put into exile this turn, put a +1/+1 counter on this creature.""
+−7: Target player exiles the top X cards of their library, where X is the total mana value of cards you own in exile.
+power: nan
+toughness: nan
+colors: ['B']
+color_identity: ['B']
+keywords: []","name: Ashiok, Wicked Manipulator
+mana_cost: {3}{U}{B}
+cmc: 5
+type_line: Legendary Planeswalker - Ashiok
+oracle_text: +2: Exile the top three cards of target opponent's library.
+-X: Put a creature card with converted mana cost X exiled with Ashiok, Wicked Manipulator onto the battlefield under your control. That creature is a Nightmare in addition to its other types.
+-10: Exile all cards from all opponents' hands and graveyards.
+
+Loyalty: 5
+colors: Blue, Black
+color_identity: UB
+keywords: -"
+65,A-Moon-Circuit Hacker,,,"name: A-Moon-Circuit Hacker
+mana_cost: {1}{U}
+cmc: 2.0
+type_line: Enchantment Creature — Human Ninja
+oracle_text: Ninjutsu {U} ({U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Whenever Moon-Circuit Hacker deals combat damage to a player, scry 2, then draw a card. Discard a card unless Moon-Circuit Hacker entered the battlefield this turn.
+power: 2
+toughness: 1
+colors: ['U']
+color_identity: ['U']
+keywords: ['Ninjutsu', 'Scry']","name: A-Moon-Circuit Hacker
+mana_cost: {U}{U}
+cmc: 2
+type_line: Creature - Human Wizard
+oracle_text: {T}: Target noncreature artifact becomes an artifact creature with power and toughness each equal to its converted mana cost until end of turn.
+power: 0
+toughness: 1
+colors: Blue
+color_identity: Blue
+keywords:"
+66,Sickening Shoal,,,"name: Sickening Shoal
+mana_cost: {X}{B}{B}
+cmc: 2.0
+type_line: Instant — Arcane
+oracle_text: You may exile a black card with mana value X from your hand rather than pay this spell's mana cost.
+Target creature gets -X/-X until end of turn.
+power: nan
+toughness: nan
+colors: ['B']
+color_identity: ['B']
+keywords: []","name: Sickening Shoal
+mana_cost: {X}{B}{B}
+cmc: 2
+type_line: Instant
+oracle_text: You may exile a black card with converted mana cost X from your hand rather than pay this spell's mana cost.
+Target creature gets -X/-X until end of turn.
+power: 
+toughness: 
+colors: Black
+color_identity: Black
+keywords: None"
+67,Universal Solvent,,,"name: Universal Solvent
+mana_cost: {1}
+cmc: 1.0
+type_line: Artifact
+oracle_text: {7}, {T}, Sacrifice Universal Solvent: Destroy target permanent.
+power: nan
+toughness: nan
+colors: []
+color_identity: []
+keywords: []","name: Universal Solvent
+mana_cost: {2}
+cmc: 2
+type_line: Artifact
+oracle_text: {t}, {o2}, Sacrifice Universal Solvent: Destroy target permanent.
+power: 
+toughness: 
+colors: 
+color_identity: 
+keywords:"
+68,Flawless Forgery,,,"name: Flawless Forgery
+mana_cost: {3}{U}
+cmc: 4.0
+type_line: Instant
+oracle_text: Copy target artifact or enchantment spell. You may choose new targets for the copy.
+power: nan
+toughness: nan
+colors: ['U']
+color_identity: ['U']
+keywords: []","name: Flawless Forgery  
+mana_cost: {U}{U}  
+cmc: 2  
+type_line: Sorcery  
+oracle_text: Choose one —
+• Destroy target artifact.
+• Create a token that's a copy of target artifact.  
+colors: Blue  
+color_identity: Blue  
+keywords: None"
+69,"Rukarumel, Biologist",,,"name: Rukarumel, Biologist
+mana_cost: {W}{U}{B}{R}{G}
+cmc: 5.0
+type_line: Legendary Creature — Human Wizard
+oracle_text: As Rukarumel, Biologist enters the battlefield, choose a creature type.
+Slivers you control and nontoken creatures you control are the chosen type in addition to their other creature types. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.
+{3}, {T}: Create a 1/1 colorless Sliver creature token.
+power: 3
+toughness: 3
+colors: ['B', 'G', 'R', 'U', 'W']
+color_identity: ['B', 'G', 'R', 'U', 'W']
+keywords: []","name: Rukarumel, Biologist
+mana_cost: {2}{G}{G}
+cmc: 4
+type_line: Creature - Elf Druid
+oracle_text: When Rukarumel, Biologist enters the battlefield, you may put a +1/+1 counter on target creature.
+power: 2
+toughness: 2
+colors: Green
+color_identity: Green
+keywords: None"
+70,One-Clown Band,,,"name: One-Clown Band
+mana_cost: {1}{R}
+cmc: 2.0
+type_line: Artifact Creature — Clown Robot Bard
+oracle_text: {2}{R}: Target Robot gets +2/+0 until end of turn.
+power: 1
+toughness: 3
+colors: ['R']
+color_identity: ['R']
+keywords: []","name: One-Clown Band
+mana_cost: {2}{U}
+cmc: 3
+type_line: Creature - Human Clown
+oracle_text: Whenever One-Clown Band attacks or blocks, you flip a coin. If you win the flip, One-Clown Band gets +1/+1 until end of turn.
+power: 2
+toughness: 2
+colors: Blue
+color_identity: Blue
+keywords: None"
+71,Swarmborn Giant,,,"name: Swarmborn Giant
+mana_cost: {6}{G}{G}
+cmc: 8.0
+type_line: Creature — Giant
+oracle_text: Trample
+When Swarmborn Giant enters the battlefield, create two 1/1 green Insect creature tokens with flying and haste.
+power: 8
+toughness: 8
+colors: ['G']
+color_identity: ['G']
+keywords: ['Trample', 'Flying', 'Haste']","name: Swarmborn Giant
+mana_cost: {4}{G}{G}
+cmc: 6
+type_line: Creature - Giant
+oracle_text: At the beginning of your end step, you may create a 1/1 green Insect creature token.
+power: 6
+toughness: 6
+colors: Green
+color_identity: Green
+keywords: None"
+72,Will of the All-Hunter,,,"name: Will of the All-Hunter
+mana_cost: {1}{W}
+cmc: 2.0
+type_line: Instant
+oracle_text: Target creature gets +2/+2 until end of turn. If it's blocking, instead put two +1/+1 counters on it.
+power: nan
+toughness: nan
+colors: ['W']
+color_identity: ['W']
+keywords: ['Cycling']","name: Will of the All-Hunter
+mana_cost: {2}{G}{G}
+cmc: 4
+type_line: Sorcery
+oracle_text: Create a 5/5 green Beast creature token.
+power: 
+toughness: 
+colors: Green
+color_identity: Green
+keywords:"
+73,Draconic Disciple,,,"name: Draconic Disciple
+mana_cost: {1}{R}{G}
+cmc: 3.0
+type_line: Creature — Human Shaman
+oracle_text: {T}: Add one mana of any color.
+{7}, {T}, Sacrifice Draconic Disciple: Create a 5/5 red Dragon creature token with flying.
+power: 2
+toughness: 2
+colors: ['G', 'R']
+color_identity: ['G', 'R']
+keywords: []","name: Draconic Disciple
+mana_cost: {1}{R}{G}
+cmc: 3
+type_line: Creature - Human Druid
+oracle_text: {T}: Add one mana of any color.
+{7}{R}{G}, {T}, Sacrifice Draconic Disciple: Create a 5/5 red Dragon creature token with flying.
+power: 2
+toughness: 2
+colors: ['G', 'R']
+color_identity: ['G', 'R']
+keywords: none"
+74,Cephalid Shrine,,,"name: Cephalid Shrine
+mana_cost: {1}{U}{U}
+cmc: 3.0
+type_line: Enchantment
+oracle_text: Whenever a player casts a spell, counter that spell unless that player pays {X}, where X is the number of cards in all graveyards with the same name as the spell.
+power: nan
+toughness: nan
+colors: ['U']
+color_identity: ['U']
+keywords: []","name: Cephalid Shrine
+mana_cost: {1}{U}{U}
+cmc: 3
+type_line: Enchantment
+oracle_text: {U}{U}, Sacrifice Cephalid Shrine: Draw three cards, then discard a card.
+colors: Blue
+color_identity: Blue
+keywords: Sacrifice"
+75,"Keranos, God of Storms",,,"name: Keranos, God of Storms
+mana_cost: {3}{U}{R}
+cmc: 5.0
+type_line: Legendary Enchantment Creature — God
+oracle_text: Indestructible
+As long as your devotion to blue and red is less than seven, Keranos isn't a creature.
+Reveal the first card you draw on each of your turns. Whenever you reveal a land card this way, draw a card. Whenever you reveal a nonland card this way, Keranos deals 3 damage to any target.
+power: 6
+toughness: 5
+colors: ['R', 'U']
+color_identity: ['R', 'U']
+keywords: ['Indestructible']","name: Keranos, God of Storms
+mana_cost: {3}{U}{R}
+cmc: 5
+type_line: Legendary Enchantment Creature - God
+oracle_text: Indestructible
+As long as your devotion to blue and red is less than seven, Keranos isn't a creature.
+Reveal the first card you draw on each of your turns. Whenever you reveal a land card this way, draw a card. Whenever you reveal a nonland card this way, Keranos deals 3 damage to any target.
+power: 6
+toughness: 5
+colors: [""Blue"", ""Red""]
+color_identity: [""U"", ""R""]
+keywords: Indestructible"
+76,"Lukamina, Moon Druid",,,"name: Lukamina, Moon Druid
+mana_cost: {2}{G}
+cmc: 3.0
+type_line: Legendary Creature — Human Druid
+oracle_text: Wild Shape — Specialize {3}. Activate only if you control six or more lands.
+When Lukamina, Moon Druid enters the battlefield, if you cast it, seek a land card with a basic land type.
+power: 2
+toughness: 2
+colors: ['G']
+color_identity: ['G']
+keywords: ['Wild Shape', 'Seek', 'Specialize']","name: Lukamina, Moon Druid
+mana_cost: {G}{U}{W}
+cmc: 3
+type_line: Legendary Creature - Elf Druid
+oracle_text: {T}: Add one mana of any color.
+{2}{G}{U}, {T}: Transform Lukamina, Moon Druid.
+power: 2
+toughness: 2
+colors: Green, Blue, White
+color_identity: Green, Blue, White
+keywords: Transform"
+77,Reincarnation,,,"name: Reincarnation
+mana_cost: {1}{G}{G}
+cmc: 3.0
+type_line: Instant
+oracle_text: Choose target creature. When that creature dies this turn, return a creature card from its owner's graveyard to the battlefield under the control of that creature's owner.
+power: nan
+toughness: nan
+colors: ['G']
+color_identity: ['G']
+keywords: []","name: Reincarnation
+mana_cost: {2}{G}{G}
+cmc: 4
+type_line: Sorcery
+oracle_text: Return target creature card from your graveyard to the battlefield. That creature gains haste until end of turn. Exile it at the beginning of the next end step.
+power: 
+toughness: 
+colors: Green
+color_identity: Green
+keywords: Haste"
+78,Bloodfire Enforcers,,,"name: Bloodfire Enforcers
+mana_cost: {3}{R}
+cmc: 4.0
+type_line: Creature — Human Monk
+oracle_text: Bloodfire Enforcers has first strike and trample as long as an instant card and a sorcery card are in your graveyard.
+power: 5
+toughness: 2
+colors: ['R']
+color_identity: ['R']
+keywords: []","name: Bloodfire Enforcers
+mana_cost: {3}{R}
+cmc: 4
+type_line: Creature — Human Monk
+oracle_text: Bloodfire Enforcers has first strike and trample as long as an instant card and a sorcery card are in your graveyard.
+power: 2
+toughness: 2
+colors: Red
+color_identity: R
+keywords: First strike, Trample"
+79,Invoke the Ancients,,,"name: Invoke the Divine
+mana_cost: {2}{W}
+cmc: 3.0
+type_line: Instant
+oracle_text: Destroy target artifact or enchantment. You gain 4 life.
+power: nan
+toughness: nan
+colors: ['W']
+color_identity: ['W']
+keywords: []","name: Invoke the Ancients
+mana_cost: {3}{W}{W}
+cmc: 5
+type_line: Sorcery
+oracle_text: Put two +1/+1 counters on target creature you control. That creature gains indestructible until end of turn.
+power: 
+toughness: 
+colors: White
+color_identity: W
+keywords: Indestructible"
+80,Defensive Stance,,,"name: Wall of Caltrops
+mana_cost: {1}{W}
+cmc: 2.0
+type_line: Creature — Wall
+oracle_text: Defender (This creature can't attack.)
+Whenever Wall of Caltrops blocks a creature, if at least one other Wall creature is blocking that creature and no non-Wall creatures are blocking that creature, Wall of Caltrops gains banding until end of turn. (If any creatures with banding you control are blocking a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by.)
+power: 2
+toughness: 1
+colors: ['W']
+color_identity: ['W']
+keywords: ['Defender']","name: Defensive Stance
+mana_cost: {W}
+cmc: 1
+type_line: Instant
+oracle_text: Target creature gets +1/+1 until end of turn. Prevent all damage that would be dealt to that creature this turn.
+power: 
+toughness: 
+colors: White
+color_identity: W
+keywords:"
+81,Death Pit Offering,,,"name: Death Pit Offering
+mana_cost: {2}{B}
+cmc: 3.0
+type_line: Sorcery
+oracle_text: Choose a creature type. Return up to two creature cards of that type from your graveyard to the battlefield.
+power: nan
+toughness: nan
+colors: ['B']
+color_identity: ['B']
+keywords: []","name: Death Pit Offering
+mana_cost: 3BB
+cmc: 5
+type_line: Sorcery
+oracle_text: As an additional cost to cast this spell, sacrifice a creature.
+Create X 0/1 black Thrull creature tokens, where X is the sacrificed creature's power.
+power: N/A
+toughness: N/A
+colors: Black
+color_identity: Black
+keywords: N/A"
+82,Vault of Whispers,,,"name: Vault of Champions
+mana_cost: nan
+cmc: 0.0
+type_line: Land
+oracle_text: Vault of Champions enters the battlefield tapped unless you have two or more opponents.
+{T}: Add {W} or {B}.
+power: nan
+toughness: nan
+colors: []
+color_identity: ['B', 'W']
+keywords: []","name: Vault of Whispers
+mana_cost: 
+cmc: 0
+type_line: Artifact Land
+oracle_text: (Tap: Add Black to your mana pool.)
+power: 
+toughness: 
+colors: 
+color_identity: B
+keywords: "
+83,"Slimefoot, the Stowaway",,,"name: Slimefoot, the Stowaway
+mana_cost: {1}{B}{G}
+cmc: 3.0
+type_line: Legendary Creature — Fungus
+oracle_text: Whenever a Saproling you control dies, Slimefoot, the Stowaway deals 1 damage to each opponent and you gain 1 life.
+{4}: Create a 1/1 green Saproling creature token.
+power: 2
+toughness: 3
+colors: ['B', 'G']
+color_identity: ['B', 'G']
+keywords: []","name: Slimefoot, the Stowaway
+mana_cost: {1}{B}{G}
+cmc: 3
+type_line: Legendary Creature - Fungus
+oracle_text: Whenever a Saproling you control dies, Slimefoot, the Stowaway deals 1 damage to each opponent and you gain 1 life.
+{4}: Create a 1/1 green Saproling creature token.
+power: 2
+toughness: 3
+colors: ['Black', 'Green']
+color_identity: ['Black', 'Green']
+keywords: ['None']"
+84,Merciless Resolve,,,"name: Merciless Resolve
+mana_cost: {2}{B}
+cmc: 3.0
+type_line: Instant
+oracle_text: As an additional cost to cast this spell, sacrifice a creature.
+Draw two cards.
+power: nan
+toughness: nan
+colors: ['B']
+color_identity: ['B']
+keywords: []","name: Merciless Resolve
+mana_cost: 2B
+cmc: 3
+type_line: Instant
+oracle_text: As an additional cost to cast this spell, sacrifice a creature.
+Draw two cards.
+power: 
+toughness: 
+colors: Black
+color_identity: B
+keywords:"
+85,Tajuru Blightblade,,,"name: Tajuru Blightblade
+mana_cost: {G}
+cmc: 1.0
+type_line: Creature — Elf Rogue
+oracle_text: Deathtouch
+power: 1
+toughness: 1
+colors: ['G']
+color_identity: ['G']
+keywords: ['Deathtouch']","name: Tajuru Blightblade
+mana_cost: {B}
+cmc: 1
+type_line: Creature - Elf Warrior
+oracle_text: Deathtouch
+power: 1
+toughness: 1
+colors: Black
+color_identity: B
+keywords: Deathtouch"
+86,Nature Shields Its Own,,,"name: Nature's Shields Its Own
+mana_cost: {2}{G}{W}
+cmc: 4.0
+type_line: Enchantment
+oracle_text: Whenever a land enters the battlefield under your control, create a 1/1 green Saproling creature token.
+power: nan
+toughness: nan
+colors: ['G', 'W']
+color_identity: ['G', 'W']
+keywords: []","name: Nature Shields Its Own
+mana_cost: {2}{G}{G}
+cmc: 4
+type_line: Enchantment
+oracle_text: Whenever a nontoken creature enters the battlefield under your control, you may draw a card.
+power: 
+toughness: 
+colors: Green
+color_identity: Green
+keywords:"
+87,Runed Stalactite,,,"name: Runed Stalactite
+mana_cost: {1}
+cmc: 1.0
+type_line: Artifact — Equipment
+oracle_text: Equipped creature gets +1/+1 and is every creature type.
+Equip {2}
+power: nan
+toughness: nan
+colors: []
+color_identity: []
+keywords: ['Equip']","name: Runed Stalactite
+mana_cost: {1}
+cmc: 1
+type_line: Artifact
+oracle_text: {T}: Add one mana of any color.
+{1}: Target creature becomes the creature type of your choice until end of turn.
+power: 
+toughness: 
+colors: 
+color_identity: 
+keywords:"
+88,Crumble,,,"name: Crumble to Dust
+mana_cost: {3}{R}
+cmc: 4.0
+type_line: Sorcery
+oracle_text: Devoid (This card has no color.)
+Exile target nonbasic land. Search its controller's graveyard, hand, and library for any number of cards with the same name as that land and exile them. Then that player shuffles.
+power: nan
+toughness: nan
+colors: []
+color_identity: ['R']
+keywords: ['Devoid']","name: Crumble
+mana_cost: {R}
+cmc: 1
+type_line: Instant
+oracle_text: Destroy target artifact. It can't be regenerated.
+colors: Red
+color_identity: R
+keywords: None"
+89,Cunning Nightbonder,,,"name: Cunning Nightbonder
+mana_cost: {U/B}{U/B}
+cmc: 2.0
+type_line: Creature — Human Rogue
+oracle_text: Flash
+Spells with flash you cast cost {1} less to cast and can't be countered.
+power: 2
+toughness: 2
+colors: ['B', 'U']
+color_identity: ['B', 'U']
+keywords: ['Flash']","name: Cunning Nightbonder
+mana_cost: {U}{B}
+cmc: 2
+type_line: Creature - Human Rogue
+oracle_text: Flash
+Creature spells you cast with flash cost {1} less to cast. 
+power: 2
+toughness: 2
+colors: Blue, Black
+color_identity: UB
+keywords: Flash"
+90,Vecna,,,"name: Vecna
+mana_cost: nan
+cmc: 0.0
+type_line: Token Legendary Creature — Zombie God
+oracle_text: Indestructible
+power: 8
+toughness: 8
+colors: ['B']
+color_identity: ['B']
+keywords: ['Indestructible']","name: Vecna
+mana_cost: {6}{B}
+cmc: 7
+type_line: Legendary Creature - God
+oracle_text: Whenever you attack with one or more creatures, you may pay {1}{B}. If you do, create an X/X black Zombie creature token, where X is the number of creatures you attacked with.
+power: 7
+toughness: 7
+colors: [""Black""]
+color_identity: [""Black""]
+keywords: [""Indestructible""]"
+91,Drowner Initiate,,,"name: Drowner Initiate
+mana_cost: {U}
+cmc: 1.0
+type_line: Creature — Merfolk Wizard
+oracle_text: Whenever a player casts a blue spell, you may pay {1}. If you do, target player mills two cards.
+power: 1
+toughness: 1
+colors: ['U']
+color_identity: ['U']
+keywords: ['Mill']","name: Drowner Initiate
+mana_cost: 1U
+cmc: 2
+type_line: Creature - Merfolk Wizard
+oracle_text: {1}{U}, {T}, Tap an untapped Merfolk you control: Tap target creature.
+power: 1
+toughness: 1
+colors: Blue
+color_identity: U
+keywords:"
+92,Spotted Griffin,,,"name: Spotted Griffin
+mana_cost: {3}{W}
+cmc: 4.0
+type_line: Creature — Griffin
+oracle_text: Flying
+power: 2
+toughness: 2
+colors: ['W']
+color_identity: ['W']
+keywords: ['Flying']","name: Spotted Griffin
+mana_cost: {3}{W}
+cmc: 4
+type_line: Creature - Griffin
+oracle_text: Flying
+power: 2
+toughness: 2
+colors: White
+color_identity: W
+keywords: Flying"
+93,Fool's Tome,,,"name: Fool's Tome
+mana_cost: {4}
+cmc: 4.0
+type_line: Artifact
+oracle_text: At the beginning of your upkeep, draw a card.
+power: nan
+toughness: nan
+colors: []
+color_identity: []
+keywords: []","name: Fool's Tome
+mana_cost: {3}
+cmc: 3
+type_line: Artifact
+oracle_text: {1}, {T}: Draw three cards, then put two cards from your hand on top of your library in any order.
+power: 
+toughness: 
+colors: 
+color_identity: 
+keywords:"
+94,Indestructibility,,,"name: Indestructible Aura
+mana_cost: {W}
+cmc: 1.0
+type_line: Instant
+oracle_text: Prevent all damage that would be dealt to target creature this turn.
+power: nan
+toughness: nan
+colors: ['W']
+color_identity: ['W']
+keywords: []","name: Indestructibility
+mana_cost: {3}{W}
+cmc: 4
+type_line: Enchantment - Aura
+oracle_text: Enchant permanent
+Enchanted permanent has indestructible. (Effects that say ""destroy"" don't destroy that permanent. An indestructible creature can't be destroyed by damage.)
+power: 
+toughness: 
+colors: White
+color_identity: W
+keywords: Indestructible"
+95,School of Piranha,,,"name: School of Piranha
+mana_cost: {1}{U}
+cmc: 2.0
+type_line: Creature — Fish
+oracle_text: At the beginning of your upkeep, sacrifice School of Piranha unless you pay {1}{U}.
+power: 3
+toughness: 3
+colors: ['U']
+color_identity: ['U']
+keywords: []","name: School of Piranha 
+mana_cost: {3}{U}
+cmc: 4
+type_line: Creature - Fish
+oracle_text: {2}{U}, Sacrifice School of Piranha: Draw a card.
+power: 2
+toughness: 5
+colors: Blue
+color_identity: U
+keywords: None"
+96,Hive Mind,,,"name: Hive Mind
+mana_cost: {5}{U}
+cmc: 6.0
+type_line: Enchantment
+oracle_text: Whenever a player casts an instant or sorcery spell, each other player copies that spell. Each of those players may choose new targets for their copy.
+power: nan
+toughness: nan
+colors: ['U']
+color_identity: ['U']
+keywords: []","name: Hive Mind  
+mana_cost: {4}{U}{U}  
+cmc: 6  
+type_line: Enchantment  
+oracle_text: Whenever a player casts an instant or sorcery spell, each other player copies that spell. Each of those players may choose new targets for their copy.  
+power:  
+toughness:  
+colors: Blue  
+color_identity: Blue  
+keywords:"
+97,Nothic,,,"name: Nothic
+mana_cost: {4}{B}
+cmc: 5.0
+type_line: Creature — Horror
+oracle_text: Weird Insight — When Nothic dies, roll a d20.
+1—9 | You draw a card and you lose 1 life.
+10—19 | You draw two cards and you lose 2 life.
+20 | You draw seven cards and you lose 7 life.
+power: 4
+toughness: 3
+colors: ['B']
+color_identity: ['B']
+keywords: ['Weird Insight']","name: Nothic
+mana_cost: {3}{B}
+cmc: 4
+type_line: Creature - Aberration
+oracle_text: {3}{B}: Nothic can deal damage to one target creature equal to the number of cards in that player's hand.
+power: 3
+toughness: 3
+colors: Black
+color_identity: Black
+keywords: "
+98,Seismic Strike,,,"name: Seismic Strike
+mana_cost: {2}{R}
+cmc: 3.0
+type_line: Instant
+oracle_text: Seismic Strike deals damage to target creature equal to the number of Mountains you control.
+power: nan
+toughness: nan
+colors: ['R']
+color_identity: ['R']
+keywords: []","name: Seismic Strike
+mana_cost: {R}{R}
+cmc: 2
+type_line: Instant
+oracle_text: Seismic Strike deals damage to target creature equal to the number of Mountains you control.
+power: 
+toughness: 
+colors: Red
+color_identity: R
+keywords:"
+99,Pirate's Landing,,,"name: Pirate's Landing
+mana_cost: {R}
+cmc: 1.0
+type_line: Sorcery
+oracle_text: Draw a card. If mana from a Treasure was spent to cast this spell, seek a Pirate card instead.
+power: nan
+toughness: nan
+colors: ['R']
+color_identity: ['R']
+keywords: ['Seek']","name: Pirate's Landing
+mana_cost: {2}{R}
+cmc: 3
+type_line: Enchantment
+oracle_text: When Pirate's Landing enters the battlefield, create a Treasure token.
+At the beginning of your end step, if you control a creature with power 3 or greater, sacrifice Pirate's Landing.
+power: 
+toughness: 
+colors: Red
+color_identity: R
+keywords: Pirate, Treasure"
+100,Irenicus's Vile Duplication,,,"name: Irenicus's Vile Duplication
+mana_cost: {3}{U}
+cmc: 4.0
+type_line: Sorcery
+oracle_text: Create a token that's a copy of target creature you control, except the token has flying and it isn't legendary.
+power: nan
+toughness: nan
+colors: ['U']
+color_identity: ['U']
+keywords: []","name: Irenicus's Vile Duplication
+mana_cost: 5BB
+cmc: 7
+type_line: Sorcery
+oracle_text: Put target creature card from a graveyard onto the battlefield under your control. It gains haste.
+power: 
+toughness: 
+colors: Black
+color_identity: Black
+keywords:"
+101,Open the Armory,,,"name: Open the Armory
+mana_cost: {1}{W}
+cmc: 2.0
+type_line: Sorcery
+oracle_text: Search your library for an Aura or Equipment card, reveal it, put it into your hand, then shuffle.
+power: nan
+toughness: nan
+colors: ['W']
+color_identity: ['W']
+keywords: []","name: Open the Armory
+mana_cost: {1}{W}
+cmc: 2
+type_line: Sorcery
+oracle_text: Search your library for an Aura or Equipment card, reveal it, and put it into your hand. Then shuffle your library.
+power: 
+toughness: 
+colors: White
+color_identity: W
+keywords:"
+102,Backfire,,,"name: Backfire
+mana_cost: {U}
+cmc: 1.0
+type_line: Enchantment — Aura
+oracle_text: Enchant creature
+Whenever enchanted creature deals damage to you, Backfire deals that much damage to that creature's controller.
+power: nan
+toughness: nan
+colors: ['U']
+color_identity: ['U']
+keywords: ['Enchant']","name: Backfire
+mana_cost: {R}
+cmc: 1
+type_line: Sorcery
+oracle_text: Backfire deals 1 damage to any target.
+power: 
+toughness: 
+colors: Red
+color_identity: Red
+keywords:"
+103,Crystal Seer,,,"name: Crystal Seer
+mana_cost: {4}{U}
+cmc: 5.0
+type_line: Creature — Vedalken Wizard
+oracle_text: When Crystal Seer enters the battlefield, look at the top four cards of your library, then put them back in any order.
+{4}{U}: Return Crystal Seer to its owner's hand.
+power: 2
+toughness: 2
+colors: ['U']
+color_identity: ['U']
+keywords: []","name: Crystal Seer
+mana_cost: {2}{U}
+cmc: 3
+type_line: Creature - Vedalken Wizard
+oracle_text: When Crystal Seer enters the battlefield, look at the top four cards of your library, then put them back in any order.
+power: 2
+toughness: 2
+colors: Blue
+color_identity: Blue
+keywords: [None]"
+104,Citadel of Pain,,,"name: Citadel of Pain
+mana_cost: {2}{R}
+cmc: 3.0
+type_line: Enchantment
+oracle_text: At the beginning of each player's end step, Citadel of Pain deals X damage to that player, where X is the number of untapped lands they control.
+power: nan
+toughness: nan
+colors: ['R']
+color_identity: ['R']
+keywords: []","name: Citadel of Pain
+mana_cost: {3}{R}
+cmc: 4
+type_line: Enchantment
+oracle_text: At the beginning of each player's end step, Citadel of Pain deals X damage to that player, where X is the number of untapped lands they control.
+power: N/A
+toughness: N/A
+colors: Red
+color_identity: R
+keywords: N/A"
+105,Increasing Confusion,,,"name: Increasing Confusion
+mana_cost: {X}{U}
+cmc: 1.0
+type_line: Sorcery
+oracle_text: Target player mills X cards. If this spell was cast from a graveyard, that player mills twice that many cards instead.
+Flashback {X}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+power: nan
+toughness: nan
+colors: ['U']
+color_identity: ['U']
+keywords: ['Flashback', 'Mill']","name: Increasing Confusion
+mana_cost: XUU
+cmc: 1
+type_line: Sorcery
+oracle_text: Target player mills X cards. Then that player puts the top X cards of their library into their graveyard. If Increasing Confusion was cast from a graveyard, that player puts twice that many cards into their graveyard instead.
+power: 
+toughness: 
+colors: Blue
+color_identity: Blue
+keywords: Miracle"
+106,Dire Fleet Poisoner,,,"name: Dire Fleet Poisoner
+mana_cost: {1}{B}
+cmc: 2.0
+type_line: Creature — Human Pirate
+oracle_text: Flash
+Deathtouch
+When Dire Fleet Poisoner enters the battlefield, target attacking Pirate you control gets +1/+1 and gains deathtouch until end of turn.
+power: 2
+toughness: 2
+colors: ['B']
+color_identity: ['B']
+keywords: ['Flash', 'Deathtouch']","name: Dire Fleet Poisoner
+mana_cost: {B}{B}
+cmc: 2
+type_line: Creature - Human Pirate
+oracle_text: Flash
+Deathtouch
+When Dire Fleet Poisoner enters the battlefield, target attacking Pirate you control gets +1/+1 and gains deathtouch until end of turn.
+power: 2
+toughness: 2
+colors: [Black]
+color_identity: [Black]
+keywords: Flash, Deathtouch"
+107,Wrenn and Realmbreaker Emblem,,,"name: Wrenn and Realmbreaker Emblem
+mana_cost: nan
+cmc: 0.0
+type_line: Emblem
+oracle_text: You may play lands and cast permanent spells from your graveyard.
+power: nan
+toughness: nan
+colors: []
+color_identity: []
+keywords: []","name: Wrenn and Seven
+mana_cost: {2}{G}{G}
+cmc: 4
+type_line: Legendary Planeswalker - Wrenn
+oracle_text: +1: Reveal the top four cards of your library. You may put all land cards revealed this way into your hand. Put the rest on the bottom of your library in a random order.
+-3: Return up to two target land cards from your graveyard to the battlefield.
+-7: You get an emblem with ""Whenever a land enters the battlefield under your control, you may draw a card.""
+power: 5
+toughness: 5
+colors: Green
+color_identity: Green
+keywords: Emblem"
+108,Emblem of the Warmind,,,"name: Emblem of the Warmind
+mana_cost: {1}{R}
+cmc: 2.0
+type_line: Enchantment — Aura
+oracle_text: Enchant creature you control
+Creatures you control have haste.
+power: nan
+toughness: nan
+colors: ['R']
+color_identity: ['R']
+keywords: ['Enchant']","name: Emblem of the Warmind
+mana_cost: 
+cmc: 0
+type_line: Emblem
+oracle_text: Creatures you control get +2/+0.
+power: 
+toughness: 
+colors: 
+color_identity: 
+keywords:"
+109,Shattergang Brothers,,,"name: Shattergang Brothers
+mana_cost: {1}{B}{R}{G}
+cmc: 4.0
+type_line: Legendary Creature — Goblin Artificer
+oracle_text: {2}{B}, Sacrifice a creature: Each other player sacrifices a creature.
+{2}{R}, Sacrifice an artifact: Each other player sacrifices an artifact.
+{2}{G}, Sacrifice an enchantment: Each other player sacrifices an enchantment.
+power: 3
+toughness: 3
+colors: ['B', 'G', 'R']
+color_identity: ['B', 'G', 'R']
+keywords: []","name: Shattergang Brothers
+mana_cost: 1BRG
+cmc: 4
+type_line: Legendary Creature - Goblin Artificer
+oracle_text: Sacrifice a creature: Each other player sacrifices a creature.
+Sacrifice an artifact: Each other player sacrifices an artifact.
+Sacrifice an enchantment: Each other player sacrifices an enchantment.
+power: 3
+toughness: 3
+colors: [Black, Red, Green]
+color_identity: [B, R, G]
+keywords: None"
+110,Air Elemental,,,"name: Air Elemental
+mana_cost: {3}{U}{U}
+cmc: 5.0
+type_line: Creature — Elemental
+oracle_text: Flying
+power: 4
+toughness: 4
+colors: ['U']
+color_identity: ['U']
+keywords: ['Flying']","name: Air Elemental
+mana_cost: {3}{U}{U}
+cmc: 5
+type_line: Creature - Elemental
+oracle_text: Flying
+power: 4
+toughness: 4
+colors: Blue
+color_identity: Blue
+keywords: Flying"
+111,Fellwar Stone,,,"name: Fellwar Stone
+mana_cost: {2}
+cmc: 2.0
+type_line: Artifact
+oracle_text: {T}: Add one mana of any color that a land an opponent controls could produce.
+power: nan
+toughness: nan
+colors: []
+color_identity: []
+keywords: []","name: Fellwar Stone
+mana_cost: {2}
+cmc: 2
+type_line: Artifact
+oracle_text: {T}: Add one mana of any color that a land an opponent controls could produce.
+power: 
+toughness: 
+colors: 
+color_identity: 
+keywords:"
+112,Bellowing Tanglewurm,,,"name: Bellowing Tanglewurm
+mana_cost: {3}{G}{G}
+cmc: 5.0
+type_line: Creature — Wurm
+oracle_text: Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+Other green creatures you control have intimidate.
+power: 4
+toughness: 4
+colors: ['G']
+color_identity: ['G']
+keywords: ['Intimidate']","name: Bellowing Tanglewurm
+mana_cost: {4}{G}{G}
+cmc: 6
+type_line: Creature - Wurm
+oracle_text: Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+Other green creatures you control have intimidate. (They can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+power: 4
+toughness: 4
+colors: Green
+color_identity: Green
+keywords: Intimidate"
+113,Masticore,,,"name: Masticore
+mana_cost: {4}
+cmc: 4.0
+type_line: Creature — Artifact
+oracle_text: At the beginning of your upkeep, you may discard a card. If you don't, sacrifice Masticore.
+{2}: Masticore deals 1 damage to target creature.
+{2}: Regenerate Masticore.
+power: 4
+toughness: 4
+colors: []
+color_identity: []
+keywords: []","name: Masticore
+mana_cost: {4}
+cmc: 4
+type_line: Creature - Masticore
+oracle_text: At the beginning of your upkeep, sacrifice Masticore unless you discard a card.
+{2}: Masticore deals 1 damage to target creature.
+{2}: Regenerate Masticore.
+power: 4
+toughness: 4
+colors: 
+color_identity: 
+keywords:"
+114,Glorious Protector,,,"name: Glorious Protector
+mana_cost: {2}{W}{W}
+cmc: 4.0
+type_line: Creature — Angel Cleric
+oracle_text: Flash
+Flying
+When Glorious Protector enters the battlefield, you may exile any number of non-Angel creatures you control until Glorious Protector leaves the battlefield.
+Foretell {2}{W}
+power: 3
+toughness: 4
+colors: ['W']
+color_identity: ['W']
+keywords: ['Flying', 'Flash', 'Foretell']","name: Glorious Protector
+mana_cost: {4}{W}{W}
+cmc: 6
+type_line: Creature - Angel
+oracle_text: Flash Flying
+When Glorious Protector enters the battlefield, you may exile any number of non-Angel creatures you control until Glorious Protector leaves the battlefield.
+power: 3
+toughness: 4
+colors: White
+color_identity: White
+keywords: Flash, Flying"
+115,Snare the Skies,,,"name: Snare the Skies
+mana_cost: {1}{W}
+cmc: 2.0
+type_line: Instant
+oracle_text: Target creature gains flying until end of turn. If you control a creature with flying, draw a card.
+power: nan
+toughness: nan
+colors: ['W']
+color_identity: ['W']
+keywords: ['Flying']","name: Snare the Skies
+mana_cost: {3}{U}
+cmc: 4
+type_line: Instant
+oracle_text: Counter target spell that targets a creature you control.
+power: 
+toughness: 
+colors: Blue
+color_identity: Blue
+keywords:"
+116,Dinosaur Stampede,,,"name: Dinosaur Stampede
+mana_cost: {2}{R}
+cmc: 3.0
+type_line: Instant
+oracle_text: Attacking creatures get +2/+0 until end of turn. Dinosaurs you control gain trample until end of turn.
+power: nan
+toughness: nan
+colors: ['R']
+color_identity: ['R']
+keywords: []","name: Dinosaur Stampede
+mana_cost: 2R
+cmc: 3
+type_line: Sorcery
+oracle_text: Attacking creatures get +2/+0 until end of turn. Dinosaurs you control gain trample until end of turn.
+power: 
+toughness: 
+colors: Red
+color_identity: Red
+keywords:"
+117,Searing Spear Askari,,,"name: Searing Spear Askari
+mana_cost: {2}{R}
+cmc: 3.0
+type_line: Creature — Human Knight
+oracle_text: Flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)
+{1}{R}: Searing Spear Askari gains menace until end of turn. (It can't be blocked except by two or more creatures.)
+power: 2
+toughness: 2
+colors: ['R']
+color_identity: ['R']
+keywords: ['Flanking']","name: Searing Spear Askari
+mana_cost: {1}{R}
+cmc: 2
+type_line: Creature - Human Knight
+oracle_text: {R}: Searing Spear Askari gets +1/+0 until end of turn.
+power: 2
+toughness: 2
+colors: Red
+color_identity: R
+keywords: []"
+118,"Ghave, Guru of Spores",,,"name: Ghave, Guru of Spores
+mana_cost: {2}{W}{B}{G}
+cmc: 5.0
+type_line: Legendary Creature — Fungus Shaman
+oracle_text: Ghave, Guru of Spores enters the battlefield with five +1/+1 counters on it.
+{1}, Remove a +1/+1 counter from a creature you control: Create a 1/1 green Saproling creature token.
+{1}, Sacrifice a creature: Put a +1/+1 counter on target creature.
+power: 0
+toughness: 0
+colors: ['B', 'G', 'W']
+color_identity: ['B', 'G', 'W']
+keywords: []","name: Ghave, Guru of Spores
+mana_cost: {1}{G}{W}{B}
+cmc: 4
+type_line: Legendary Creature - Fungus Shaman
+oracle_text: Whenever you cast a creature spell, you may put a +1/+1 counter on target creature.
+, Remove a +1/+1 counter from a creature you control: Create a 1/1 green Saproling creature token.
+power: 0
+toughness: 0
+colors: White, Black, Green
+color_identity: WBG
+keywords: []"
+119,Freyalise Supplicant,,,"name: Freyalise Supplicant
+mana_cost: {1}{G}
+cmc: 2.0
+type_line: Creature — Human Cleric
+oracle_text: {T}, Sacrifice a red or white creature: Freyalise Supplicant deals damage to any target equal to half the sacrificed creature's power, rounded down.
+power: 1
+toughness: 1
+colors: ['G']
+color_identity: ['G']
+keywords: []","name: Freyalise Supplicant 
+mana_cost: {G} 
+cmc: 1 
+type_line: Creature - Elf Druid 
+oracle_text: {T}: Add {G}. 
+power: 1 
+toughness: 1 
+colors: Green 
+color_identity: Green 
+keywords: None"
+120,Ayula's Influence,,,"name: Ayula's Influence
+mana_cost: {G}{G}{G}
+cmc: 3.0
+type_line: Enchantment
+oracle_text: Discard a land card: Create a 2/2 green Bear creature token.
+power: nan
+toughness: nan
+colors: ['G']
+color_identity: ['G']
+keywords: []","name: Ayula's Influence
+mana_cost: {3}{G}{G}
+cmc: 5
+type_line: Enchantment
+oracle_text: Whenever a Bear enters the battlefield under your control, you may put two +1/+1 counters on target Bear.
+power: 
+toughness: 
+colors: Green
+color_identity: Green
+keywords:"
+121,Phantom Nantuko,,,"name: Phantom Nantuko
+mana_cost: {2}{G}
+cmc: 3.0
+type_line: Creature — Insect Spirit
+oracle_text: Trample
+Phantom Nantuko enters the battlefield with two +1/+1 counters on it.
+If damage would be dealt to Phantom Nantuko, prevent that damage. Remove a +1/+1 counter from Phantom Nantuko.
+{T}: Put a +1/+1 counter on Phantom Nantuko.
+power: 0
+toughness: 0
+colors: ['G']
+color_identity: ['G']
+keywords: ['Trample']","name: Phantom Nantuko
+mana_cost: {2}{G}
+cmc: 3
+type_line: Creature - Insect Spirit
+oracle_text: Phantom Nantuko is unaffected by summoning sickness. {1}{G}: Phantom Nantuko gets +1/+1 until end of turn.
+power: 0
+toughness: 0
+colors: Green
+color_identity: G
+keywords: Ghostly shell"
+122,Llanowar Druid,,,"name: Llanowar Druid
+mana_cost: {G}
+cmc: 1.0
+type_line: Creature — Elf Druid
+oracle_text: {T}: Add {G}.
+power: 1
+toughness: 1
+colors: ['G']
+color_identity: ['G']
+keywords: []","name: Llanowar Druid
+mana_cost: {G}
+cmc: 1
+type_line: Creature - Elf Druid
+oracle_text: {T}: Add {G}.
+power: 1
+toughness: 1
+colors: Green
+color_identity: G
+keywords: None"
+123,Aura Graft,,,"name: Aura Graft
+mana_cost: {1}{U}
+cmc: 2.0
+type_line: Instant
+oracle_text: Gain control of target Aura that's attached to a permanent. Attach it to another permanent it can enchant.
+power: nan
+toughness: nan
+colors: ['U']
+color_identity: ['U']
+keywords: []","name: Aura Graft
+mana_cost: {1}{U}
+cmc: 2
+type_line: Enchantment — Aura
+oracle_text: Enchant creature
+Enchanted creature gains ""{T}: Attach target Aura attached to a permanent to enchanted creature.""
+power: 
+toughness: 
+colors: Blue
+color_identity: Blue
+keywords:"
+124,Jungle Hollow,,,"name: Jungle Hollow
+mana_cost: nan
+cmc: 0.0
+type_line: Land
+oracle_text: Jungle Hollow enters the battlefield tapped.
+When Jungle Hollow enters the battlefield, you gain 1 life.
+{T}: Add {B} or {G}.
+power: nan
+toughness: nan
+colors: []
+color_identity: ['B', 'G']
+keywords: []","name: Jungle Hollow
+mana_cost: {T}
+cmc: 0
+type_line: Land - Jungle Hollow
+oracle_text: Jungle Hollow enters the battlefield tapped.
+When Jungle Hollow enters the battlefield, you gain 1 life.
+{G}{B}
+colors: [Green, Black]
+color_identity: [Green, Black]
+keywords: Life Gain"
+125,Golgari Cluestone,,,"name: Golgari Cluestone
+mana_cost: {3}
+cmc: 3.0
+type_line: Artifact
+oracle_text: {T}: Add {B} or {G}.
+{B}{G}, {T}, Sacrifice Golgari Cluestone: Draw a card.
+power: nan
+toughness: nan
+colors: []
+color_identity: ['B', 'G']
+keywords: []","name: Golgari Cluestone
+mana_cost: {2}
+cmc: 2
+type_line: Artifact
+oracle_text: {T}: Add {B} or {G}.
+{3}{B}{G}, {T}, Sacrifice Golgari Cluestone: Draw a card.
+colors: []
+color_identity: [B, G]
+keywords: []"
+126,Tranquil Frillback,,,"name: Tranquil Frillback
+mana_cost: {2}{G}
+cmc: 3.0
+type_line: Creature — Dinosaur
+oracle_text: When Tranquil Frillback enters the battlefield, you may pay {G} up to three times. When you pay this cost one or more times, choose up to that many —
+• Destroy target artifact or enchantment.
+• Exile target player's graveyard.
+• You gain 4 life.
+power: 3
+toughness: 3
+colors: ['G']
+color_identity: ['G']
+keywords: []","name: Tranquil Frillback
+mana_cost: {2}{G}
+cmc: 3
+type_line: Creature - Dinosaur
+oracle_text: When Tranquil Frillback enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.
+power: 3
+toughness: 3
+colors: Green
+color_identity: G
+keywords: None"
+127,Sparkshaper Visionary,,,"name: Sparkshaper Visionary
+mana_cost: {1}{U}
+cmc: 2.0
+type_line: Creature — Human Wizard
+oracle_text: {T}: Untap another target artifact or creature.
+power: 1
+toughness: 2
+colors: ['U']
+color_identity: ['U']
+keywords: []","name: Sparkshaper Visionary
+mana_cost: {4}{U}
+cmc: 5
+type_line: Creature - Human Wizard
+oracle_text: When Sparkshaper Visionary enters the battlefield, choose up to X target creatures, where X is the number of instant and sorcery spells you cast this turn. Until your next turn, those creatures have ""Whenever this creature attacks, you may have target instant or sorcery card you own become your hand.""
+power: 3
+toughness: 3
+colors: Blue
+color_identity: U
+keywords:"
+128,Necromancer's Familiar,,,"name: Necromancer's Familiar
+mana_cost: {3}{B}
+cmc: 4.0
+type_line: Creature — Bird Spirit
+oracle_text: Flying
+Hellbent — Necromancer's Familiar has lifelink as long as you have no cards in hand.
+{B}, Discard a card: Necromancer's Familiar gains indestructible until end of turn. Tap it.
+power: 3
+toughness: 1
+colors: ['B']
+color_identity: ['B']
+keywords: ['Flying', 'Hellbent']","name: Necromancer's Familiar
+mana_cost: {3}{B}{B}
+cmc: 5
+type_line: Creature - Horror
+oracle_text: Deathtouch
+Embalm {3}{B}{B} ({3}{B}{B}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Horror with no mana cost. Embalm only as a sorcery.)
+power: 3
+toughness: 1
+colors: ['Black']
+color_identity: ['B']
+keywords: [Deathtouch, Embalm]"
+129,Nova Pentacle,,,"name: Nova Pentacle
+mana_cost: {1}
+cmc: 1.0
+type_line: Artifact
+oracle_text: {1}: Add one mana of any color. If a creature has a chosen name, instead add one mana of any color the chosen name's controller could produce.
+power: nan
+toughness: nan
+colors: []
+color_identity: []
+keywords: []","name: Nova Pentacle
+mana_cost: {0}
+cmc: 0
+type_line: Artifact
+oracle_text: {5}, {t}: Put a glyph counter on Nova Pentacle. For as long as Nova Pentacle has a glyph counter on it, creatures you control can't be the targets of spells or abilities your opponents control.
+power: 
+toughness: 
+colors: 
+color_identity: 
+keywords:"
+130,"Brigid, Hero of Kinsbaile",,,"name: Brigid, Hero of Kinsbaile
+mana_cost: {2}{W}{W}
+cmc: 4.0
+type_line: Legendary Creature — Kithkin Archer
+oracle_text: First strike
+{T}: Brigid, Hero of Kinsbaile deals 2 damage to each attacking or blocking creature target player controls.
+power: 2
+toughness: 3
+colors: ['W']
+color_identity: ['W']
+keywords: ['First strike']","name: Brigid, Hero of Kinsbaile
+mana_cost: {2}{R}{W}
+cmc: 4
+type_line: Legendary Creature - Kithkin Archer
+oracle_text: First strike
+{R}{R}, {T}: Brigid, Hero of Kinsbaile deals 2 damage to each attacking or blocking creature target player controls.
+power: 2
+toughness: 3
+colors: [Red, White]
+color_identity: [R, W]
+keywords: First strike"
+131,Wizard Replica,,,"name: Wizard Replica
+mana_cost: {3}
+cmc: 3.0
+type_line: Artifact Creature — Wizard
+oracle_text: Flying
+{U}, Sacrifice Wizard Replica: Counter target spell unless its controller pays {2}.
+power: 1
+toughness: 3
+colors: []
+color_identity: ['U']
+keywords: ['Flying']","name: Wizard Replica
+mana_cost: {3}
+cmc: 3
+type_line: Artifact Creature - Wizard
+oracle_text: {1}{U}, {T}: Return target creature you control to its owner's hand.
+power: 1
+toughness: 3
+colors: 
+color_identity: U
+keywords: []"
+132,True Identity,,,"name: Identity Thief
+mana_cost: {2}{U}{U}
+cmc: 4.0
+type_line: Creature — Shapeshifter
+oracle_text: Whenever Identity Thief attacks, you may exile another target nontoken creature. If you do, Identity Thief becomes a copy of that creature until end of turn. Return the exiled card to the battlefield under its owner's control at the beginning of the next end step.
+power: 0
+toughness: 3
+colors: ['U']
+color_identity: ['U']
+keywords: []","name: True Identity
+mana_cost: {1}{U}{U}
+cmc: 3
+type_line: Creature - Human Wizard
+oracle_text: When True Identity enters the battlefield, choose a noncreature, nonland card name. Spells with the chosen name can't be cast.
+power: 2
+toughness: 2
+colors: Blue
+color_identity: Blue
+keywords:"
+133,Bramblesnap,,,"name: Bramblesnap
+mana_cost: {1}{G}
+cmc: 2.0
+type_line: Creature — Elemental
+oracle_text: Trample
+Tap an untapped creature you control: Bramblesnap gets +1/+1 until end of turn.
+power: 1
+toughness: 1
+colors: ['G']
+color_identity: ['G']
+keywords: []","name: Bramblesnap
+mana_cost: {G}
+cmc: 1
+type_line: Creature - Treefolk Warrior
+oracle_text: Trample
+power: 1
+toughness: 1
+colors: Green
+color_identity: Green
+keywords: Trample"
+134,Emperor Mihail II,,,"name: Emperor Mihail II
+mana_cost: {1}{U}{U}
+cmc: 3.0
+type_line: Legendary Creature — Merfolk Noble
+oracle_text: You may look at the top card of your library any time.
+You may cast Merfolk spells from the top of your library.
+Whenever you cast a Merfolk spell, you may pay {1}. If you do, create a 1/1 blue Merfolk creature token.
+power: 3
+toughness: 3
+colors: ['U']
+color_identity: ['U']
+keywords: []","name: Emperor Mihail II
+mana_cost: {4}{W}{W}
+cmc: 6
+type_line: Legendary Creature - Human Noble
+oracle_text: Vigilance, lifelink
+At the beginning of your upkeep, create a 1/1 white Soldier creature token.
+Whenever a creature you control dies, put a +1/+1 counter on each creature you control.
+power: 4
+toughness: 4
+colors: White
+color_identity: White
+keywords: Vigilance, Lifelink"
+135,Multiclass Baldric,,,"name: Multiclass Baldric
+mana_cost: {1}
+cmc: 1.0
+type_line: Artifact — Equipment
+oracle_text: Equipped creature has lifelink if you control a Cleric, deathtouch if you control a Rogue, haste if you control a Warrior, and flying if you control a Wizard. As long as you have a full party, prevent all damage that would be dealt to equipped creature. Equip {2}
+power: nan
+toughness: nan
+colors: []
+color_identity: []
+keywords: ['Equip']","name: Multiclass Baldric
+mana_cost: {2}{W}
+cmc: 3
+type_line: Artifact - Equipment
+oracle_text: Equipped creature gets +1/+1 for each class among creatures you control. 
+Equip {2}
+colors: 
+color_identity: W
+keywords:"
+136,Brass Gnat,,,"name: Brass Gnat
+mana_cost: {1}
+cmc: 1.0
+type_line: Artifact Creature — Insect
+oracle_text: Flying
+Brass Gnat doesn't untap during your untap step.
+At the beginning of your upkeep, you may pay {1}. If you do, untap Brass Gnat.
+power: 1
+toughness: 1
+colors: []
+color_identity: []
+keywords: ['Flying']","name: Brass Gnat
+mana_cost: {1}
+cmc: 1
+type_line: Artifact Creature - Insect
+oracle_text: Flying
+power: 1
+toughness: 1
+colors: 
+color_identity: 
+keywords: Flying"
+137,Monk,,,"name: Monk
+mana_cost: nan
+cmc: 0.0
+type_line: Token Creature — Monk
+oracle_text: Prowess
+power: 1
+toughness: 1
+colors: ['W']
+color_identity: ['W']
+keywords: ['Prowess']","name: Monk
+mana_cost: {1}{W}
+cmc: 2
+type_line: Creature - Human Monk
+oracle_text: 
+power: 2
+toughness: 2
+colors: White
+color_identity: White
+keywords: []"
+138,Deal Broker,,,"name: Deal Broker
+mana_cost: {3}
+cmc: 3.0
+type_line: Artifact Creature — Construct
+oracle_text: Draft Deal Broker face up.
+Immediately after the draft, you may reveal a card in your card pool. Each other player may offer you one card in their card pool in exchange. You may accept any one offer.
+{T}: Draw a card, then discard a card.
+power: 2
+toughness: 3
+colors: []
+color_identity: []
+keywords: []","name: Deal Broker
+mana_cost: {1}{R}
+cmc: 2
+type_line: Creature - Human Rogue
+oracle_text: {T}, Sacrifice Deal Broker: Investigate. (Create a colorless Clue artifact token with ""{2}, Sacrifice this artifact: Draw a card."")
+power: 2
+toughness: 1
+colors: Red
+color_identity: R
+keywords: None"
+139,Heal,,,"name: Healing Technique
+mana_cost: {3}{G}
+cmc: 4.0
+type_line: Sorcery
+oracle_text: Demonstrate (When you cast this spell, you may copy it. If you do, choose an opponent to also copy it. Players may choose new targets for their copies.)
+Return target card from your graveyard to your hand. You gain life equal to that card's mana value. Exile Healing Technique.
+power: nan
+toughness: nan
+colors: ['G']
+color_identity: ['G']
+keywords: ['Demonstrate']","name: Heal
+mana_cost: W
+cmc: 1
+type_line: Instant
+oracle_text: Target player gains 4 life.
+power: 
+toughness: 
+colors: White
+color_identity: W
+keywords: "
+140,Shipwreck Marsh,,,"name: Shipwreck Marsh
+mana_cost: nan
+cmc: 0.0
+type_line: Land
+oracle_text: Shipwreck Marsh enters the battlefield tapped.
+{T}: Add {B}.
+{T}, Sacrifice Shipwreck Marsh: Add {U}.
+colors: []
+color_identity: ['B', 'U']
+keywords: []","name: Shipwreck Marsh
+mana_cost: {C}{C}{U}{B}
+cmc: 4
+type_line: Land
+oracle_text: {T}: Add {U} or {B}. Shipwreck Marsh enters the battlefield tapped unless you control two or fewer other lands.
+power: 
+toughness: 
+colors: 
+color_identity: U, B
+keywords: "
+141,Sylvan Basilisk,,,"name: Sylvan Basilisk
+mana_cost: {3}{G}
+cmc: 4.0
+type_line: Creature — Basilisk
+oracle_text: Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+power: 2
+toughness: 4
+colors: ['G']
+color_identity: ['G']
+keywords: ['Deathtouch']","name: Sylvan Basilisk
+mana_cost: {3}{G}
+cmc: 4
+type_line: Creature - Basilisk
+oracle_text: Whenever Sylvan Basilisk becomes blocked by a creature, destroy that creature.
+power: 2
+toughness: 4
+colors: Green
+color_identity: G
+keywords: None"
+142,Conjurer's Ban,,,"name: Conjurer's Ban
+mana_cost: {W}{B}
+cmc: 2.0
+type_line: Sorcery
+oracle_text: Choose a card name. Until your next turn, spells with the chosen name can't be cast and lands with the chosen name can't be played.
+Draw a card.
+power: nan
+toughness: nan
+colors: ['B', 'W']
+color_identity: ['B', 'W']
+keywords: []","name: Conjurer's Ban
+mana_cost: {X}{U}{U}
+cmc: 2
+type_line: Sorcery
+oracle_text: Return target creature or planeswalker to its owner's hand. If this spell was cast from a graveyard, you may copy this spell and may choose a new target for the copy.
+power: 
+toughness: 
+colors: Blue
+color_identity: Blue
+keywords:"
+143,Incremental Blight,,,"name: Incremental Blight
+mana_cost: {3}{B}{B}
+cmc: 5.0
+type_line: Sorcery
+oracle_text: Put a -1/-1 counter on target creature, two -1/-1 counters on another target creature, and three -1/-1 counters on a third target creature.
+power: nan
+toughness: nan
+colors: ['B']
+color_identity: ['B']
+keywords: []","name: Incremental Blight
+mana_cost: {4}{B}{B}
+cmc: 6
+type_line: Sorcery
+oracle_text: Put three -1/-1 counters on target creature. Its controller loses 3 life unless they sacrifice another nonland permanent or discard a card.
+power: 
+toughness: 
+colors: Black
+color_identity: B
+keywords: None"
+144,Overflowing Insight,,,"name: Overflowing Insight
+mana_cost: {4}{U}{U}
+cmc: 6.0
+type_line: Sorcery
+oracle_text: Target player draws seven cards. 
+power: nan
+toughness: nan
+colors: ['U']
+color_identity: ['U']
+keywords: []","name: Overflowing Insight
+mana_cost: {5}{U}{U}
+cmc: 7
+type_line: Sorcery
+oracle_text: Target player draws seven cards. 
+power: 
+toughness: 
+colors: Blue
+color_identity: Blue
+keywords:"
+145,Bristling Boar,,,"name: Bristling Boar
+mana_cost: {3}{G}
+cmc: 4.0
+type_line: Creature — Boar
+oracle_text: Bristling Boar can't be blocked by more than one creature.
+power: 4
+toughness: 3
+colors: ['G']
+color_identity: ['G']
+keywords: []","name: Bristling Boar
+mana_cost: {3}{G}
+cmc: 4
+type_line: Creature - Boar
+oracle_text: Bristling Boar can't be blocked by more than one creature.
+power: 4
+toughness: 3
+colors: Green
+color_identity: Green
+keywords: []"
+146,Mischief and Mayhem,,,"name: Mischief and Mayhem
+mana_cost: {4}{G}
+cmc: 5.0
+type_line: Sorcery
+oracle_text: Up to two target creatures each get +4/+4 until end of turn.
+power: nan
+toughness: nan
+colors: ['G']
+color_identity: ['G']
+keywords: []","name: Mischief and Mayhem
+mana_cost: 3G
+cmc: 4
+type_line: Sorcery
+oracle_text: Create two 1/1 green Elf Warrior creature tokens. Clash with an opponent, then put a +1/+1 counter on each creature that won a clash.
+power: N/A
+toughness: N/A
+colors: Green
+color_identity: Green
+keywords: Clash"
+147,Rubblebelt Maaka,,,"name: Rubblebelt Maaka
+mana_cost: {3}{R}
+cmc: 4.0
+type_line: Creature — Cat
+oracle_text: Bloodrush — {R}, Discard Rubblebelt Maaka: Target attacking creature gets +3/+3 until end of turn.
+power: 3
+toughness: 3
+colors: ['R']
+color_identity: ['R']
+keywords: ['Bloodrush']","name: Rubblebelt Maaka
+mana_cost: {R}{G}
+cmc: 2
+type_line: Creature - Cat
+oracle_text: Bloodrush - {1}{R}{G}, Discard Rubblebelt Maaka: Target attacking creature gets +3/+3 until end of turn.
+power: 3
+toughness: 3
+colors: Red, Green
+color_identity: RG
+keywords: Bloodrush"
+148,Seeker of Slaanesh,,,"name: Seeker of Slaanesh
+mana_cost: {3}{R}
+cmc: 4.0
+type_line: Creature — Demon
+oracle_text: Haste
+Allure of Slaanesh — Each opponent must attack with at least one creature each combat if able.
+power: 3
+toughness: 3
+colors: ['R']
+color_identity: ['R']
+keywords: ['Haste', 'Allure of Slaanesh']","name: Seeker of Slaanesh
+mana_cost: {2}{B}
+cmc: 3
+type_line: Creature - Human Cleric
+oracle_text: When Seeker of Slaanesh enters the battlefield, target opponent reveals their hand. You choose a card from it. That player discards that card.
+power: 2
+toughness: 2
+colors: Black
+color_identity: Black
+keywords: None"
+149,Needletooth Raptor,,,"name: Needletooth Raptor
+mana_cost: {3}{R}
+cmc: 4.0
+type_line: Creature — Dinosaur
+oracle_text: Enrage — Whenever Needletooth Raptor is dealt damage, it deals 5 damage to target creature an opponent controls.
+power: 2
+toughness: 2
+colors: ['R']
+color_identity: ['R']
+keywords: ['Enrage']","name: Needletooth Raptor
+mana_cost: {2}{R}
+cmc: 3
+type_line: Creature - Dinosaur
+oracle_text: Enrage - Whenever Needletooth Raptor is dealt damage, it deals 5 damage to target creature an opponent controls.
+power: 2
+toughness: 2
+colors: Red
+color_identity: R
+keywords: Enrage"
+150,Stymied Hopes,,,"name: Stymied Hopes
+mana_cost: {1}{U}
+cmc: 2.0
+type_line: Instant
+oracle_text: Counter target spell unless its controller pays {1}. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+power: nan
+toughness: nan
+colors: ['U']
+color_identity: ['U']
+keywords: ['Scry']","name: Stymied Hopes
+mana_cost: {U}
+cmc: 1
+type_line: Instant
+oracle_text: Counter target spell unless its controller pays {1}.
+power: 
+toughness: 
+colors: Blue
+color_identity: Blue
+keywords: []"
+151,Marble Gargoyle,,,"name: Marble Gargoyle
+mana_cost: {2}{W}
+cmc: 3.0
+type_line: Artifact Creature — Gargoyle
+oracle_text: Flying
+{W}: Marble Gargoyle gets +0/+1 until end of turn.
+power: 2
+toughness: 2
+colors: ['W']
+color_identity: ['W']
+keywords: ['Flying']","name: Marble Gargoyle
+mana_cost: {3}{W}
+cmc: 4
+type_line: Creature - Gargoyle
+oracle_text: Flying
+At the beginning of your upkeep, sacrifice Marble Gargoyle unless you pay {1}{W}.
+power: 2
+toughness: 2
+colors: White
+color_identity: W
+keywords: Flying"
+152,Waxmane Baku,,,"name: Waxmane Baku
+mana_cost: {2}{W}
+cmc: 3.0
+type_line: Creature — Spirit
+oracle_text: Whenever you cast a Spirit or Arcane spell, you may put a ki counter on Waxmane Baku.
+{1}, Remove X ki counters from Waxmane Baku: Tap X target creatures.
+power: 2
+toughness: 2
+colors: ['W']
+color_identity: ['W']
+keywords: []","name: Waxmane Baku
+mana_cost: {1}{U}
+cmc: 2
+type_line: Creature - Spirit
+oracle_text: Whenever you cast a Spirit or Arcane spell, you may tap or untap target creature.
+power: 2
+toughness: 2
+colors: Blue
+color_identity: Blue
+keywords:"
+153,A-Asari Captain,,,"name: A-Asari Captain
+mana_cost: {1}{R}{W}
+cmc: 3.0
+type_line: Creature — Human Samurai
+oracle_text: Trample, haste
+Whenever a Samurai or Warrior you control attacks alone, it gets +1/+0 until end of turn for each Samurai or Warrior you control.
+power: 2
+toughness: 1
+colors: ['R', 'W']
+color_identity: ['R', 'W']
+keywords: ['Haste', 'Trample']","name: A-Asari Captain
+mana_cost: {2}{U}
+cmc: 3
+type_line: Creature - Asari Soldier
+oracle_text: Flying
+When A-Asari Captain enters the battlefield, you may draw a card. If you do, discard a card.
+power: 2
+toughness: 3
+colors: Blue
+color_identity: U
+keywords: Flying"
+154,Curse of Echoes,,,"name: Curse of Echoes
+mana_cost: {4}{U}
+cmc: 5
+type_line: Enchantment — Aura Curse
+oracle_text: Enchant player
+Whenever enchanted player casts an instant or sorcery spell, each other player may copy that spell and may choose new targets for the copy they control.
+power: 
+toughness: 
+colors: ['U']
+color_identity: ['U']
+keywords: ['Enchant']","name: Curse of Echoes
+mana_cost: 3UU
+cmc: 5
+type_line: Enchantment - Aura Curse
+oracle_text: Enchant player
+Whenever enchanted player casts a spell, each other player may copy that spell and may choose new targets for their copy.
+power: 
+toughness: 
+colors: Blue
+color_identity: Blue
+keywords: Curse"
+155,Colossus Hammer,,,"name: Strength-Testing Hammer
+mana_cost: {1}
+cmc: 1.0
+type_line: Artifact — Equipment
+oracle_text: Whenever equipped creature attacks, roll a six-sided die. That creature gets +X/+0 until end of turn, where X is the result. Then if it has the greatest power or is tied for greatest power among creatures on the battlefield, draw a card.
+Equip {3}
+power: nan
+toughness: nan
+colors: []
+color_identity: []
+keywords: ['Equip']","name: Colossus Hammer
+mana_cost: 8
+cmc: 1
+type_line: Artifact — Equipment
+oracle_text: Equipped creature gets +10/+10 and loses flying.
+Equip {8}
+power: 
+toughness: 
+colors: 
+color_identity: 
+keywords:"
+156,King's Assassin,,,"name: King's Assassin
+mana_cost: {1}{B}{B}
+cmc: 3.0
+type_line: Creature — Human Assassin
+oracle_text: {T}: Destroy target tapped creature. Activate only during your turn, before attackers are declared.
+power: 1
+toughness: 1
+colors: ['B']
+color_identity: ['B']
+keywords: []","name: King's Assassin
+mana_cost: {2}{B}
+cmc: 3
+type_line: Creature - Human Assassin
+oracle_text: {T}, Sacrifice a Desert: Target creature gets -2/-2 until end of turn.
+power: 1
+toughness: 1
+colors: Black
+color_identity: B
+keywords: "
+157,Dark Privilege,,,"name: Dark Privilege
+mana_cost: {1}{B}
+cmc: 2.0
+type_line: Enchantment
+oracle_text: Enchant creature
+Enchanted creature has hexproof. (It can't be the target of spells or abilities your opponents control.)
+power: nan
+toughness: nan
+colors: ['B']
+color_identity: ['B']
+keywords: ['Enchant', 'Hexproof']","name: Dark Privilege
+mana_cost: {B}{B}
+cmc: 2
+type_line: Enchantment - Aura
+oracle_text: Enchant creature
+Enchanted creature has "" {T}: Target player loses 1 life.""
+power: 
+toughness: 
+colors: Black
+color_identity: Black
+keywords: Aura"
+158,Giant Fire Beetles,,,"name: Giant Fire Beetles
+mana_cost: {2}{R}
+cmc: 3.0
+type_line: Creature — Insect
+oracle_text: Menace
+Double team
+power: 2
+toughness: 2
+colors: ['R']
+color_identity: ['R']
+keywords: ['Menace']","name: Giant Fire Beetle
+mana_cost: {R}
+cmc: 1
+type_line: Creature — Insect
+oracle_text: {R}: Giant Fire Beetle gets +1/+0 until end of turn.
+power: 0
+toughness: 1
+colors: [""R""]
+color_identity: [""R""]
+keywords: []"
+159,Drake Familiar,,,"name: Drake Familiar
+mana_cost: {2}{U}
+cmc: 3.0
+type_line: Creature — Drake
+oracle_text: Flying
+{U}: Drake Familiar gets +1/+0 until end of turn. Activate only once each turn.
+power: 1
+toughness: 2
+colors: ['U']
+color_identity: ['U']
+keywords: ['Flying']","name: Drake Familiar
+mana_cost: {1}{U}
+cmc: 2
+type_line: Creature - Drake
+oracle_text: Flying
+power: 2
+toughness: 2
+colors: Blue
+color_identity: Blue
+keywords: Flying"
+160,Soul Spike,,,"name: Soul Spike
+mana_cost: {5}{B}{B}
+cmc: 7.0
+type_line: Instant
+oracle_text: You may exile two black cards from your hand rather than pay this spell's mana cost.
+Soul Spike deals 4 damage to any target and you gain 4 life.
+power: nan
+toughness: nan
+colors: ['B']
+color_identity: ['B']
+keywords: []","name: Soul Spike
+mana_cost: {3}{B}{B}
+cmc: 5
+type_line: Sorcery
+oracle_text: Soul Spike deals 4 damage to any target and you gain 4 life.
+power: 
+toughness: 
+colors: Black
+color_identity: Black
+keywords:"
+161,Duelcraft Trainer,,,"name: Duelcraft Trainer
+mana_cost: {3}{W}
+cmc: 4.0
+type_line: Creature — Human Soldier
+oracle_text: First strike
+Coven — At the beginning of combat on your turn, if you control three or more creatures with different powers, target creature you control gains double strike until end of turn.
+power: 3
+toughness: 3
+colors: ['W']
+color_identity: ['W']
+keywords: ['First strike', 'Coven']","name: Duelcraft Trainer
+mana_cost: {1}{W}{W}
+cmc: 3
+type_line: Creature — Human Soldier
+oracle_text: When Duelcraft Trainer enters the battlefield, put a +1/+1 counter on target creature you control.
+power: 2
+toughness: 2
+colors: White
+color_identity: White
+keywords:"
+162,Ley Weaver,,,"name: Ley Weaver
+mana_cost: {G}
+cmc: 1.0
+type_line: Creature — Snake Druid
+oracle_text: Other enchantment creatures you control get +1/+1.
+{G}, {T}: Copy target activated or triggered ability you control from an enchantment source. You may choose new targets for the copy. (Mana abilities can't be targeted.)
+power: 2
+toughness: 2
+colors: ['G']
+color_identity: ['G']
+keywords: []","name: Ley Weaver
+mana_cost: {2}{G}{W}
+cmc: 4
+type_line: Creature-Elf Druid
+oracle_text: {T}: Untap two target lands.
+power: 2
+toughness: 2
+colors: [Green, White]
+color_identity: [Green, White]
+keywords: []"
+163,Plague Wind,,,"name: Plague Wind
+mana_cost: {7}{B}
+cmc: 8.0
+type_line: Sorcery
+oracle_text: Destroy all creatures you don't control. They can't be regenerated.
+power: nan
+toughness: nan
+colors: ['B']
+color_identity: ['B']
+keywords: []","name: Plague Wind
+mana_cost: 7BB
+cmc: 9
+type_line: Sorcery
+oracle_text: Destroy all creatures you don't control. They can't be regenerated.
+power: 
+toughness: 
+colors: Black
+color_identity: Black
+keywords:"
+164,Go-Shintai of Life's Origin,,,"name: Go-Shintai of Life's Origin
+mana_cost: {3}{G}
+cmc: 4.0
+type_line: Instant
+oracle_text: Create a 3/3 green Beast creature token. If you control a creature with power 4 or greater, create two of those tokens instead.
+power: nan
+toughness: nan
+colors: ['G']
+color_identity: ['G']
+keywords: []","name: Go-Shintai of Life's Origin
+mana_cost: {3}{G}
+cmc: 4
+type_line: Creature - Elemental
+oracle_text: Trample
+Whenever Go-Shintai of Life's Origin deals combat damage to a player, you may have it fight target creature that player controls.
+power: 5
+toughness: 5
+colors: Green
+color_identity: Green
+keywords: Trample"
+165,Tiefling Outcasts,,,"name: Tiefling Outcasts
+mana_cost: {R}
+cmc: 1.0
+type_line: Creature — Tiefling Peasant
+oracle_text: Double team
+Other Demons, Devils, Imps, and Tieflings you control get +1/+0.
+power: 1
+toughness: 1
+colors: ['R']
+color_identity: ['R']
+keywords: []","name: Tiefling Outcasts
+mana_cost: {3}{B}
+cmc: 4
+type_line: Creature - Tiefling
+oracle_text: When Tiefling Outcasts enters the battlefield, each player loses 1 life and you gain 1 life.
+power: 2
+toughness: 2
+colors: Black
+color_identity: Black
+keywords: None"
+166,"Sarkhan, the Dragonspeaker",,,"name: Sarkhan, the Dragonspeaker
+mana_cost: {3}{R}{R}
+cmc: 5.0
+type_line: Legendary Planeswalker — Sarkhan
+oracle_text: +1: Until end of turn, Sarkhan, the Dragonspeaker becomes a legendary 4/4 red Dragon creature with flying, indestructible, and haste. (He doesn't lose loyalty while he's not a planeswalker.)
+−3: Sarkhan, the Dragonspeaker deals 4 damage to target creature.
+−6: You get an emblem with ""At the beginning of your draw step, draw two additional cards"" and ""At the beginning of your end step, discard your hand.""
+power: nan
+toughness: nan
+colors: ['R']
+color_identity: ['R']
+keywords: []","name: Sarkhan, the Dragonspeaker
+mana_cost: {3}{R}{R}
+cmc: 5
+type_line: Legendary Planeswalker - Sarkhan
+oracle_text: +1: Until end of turn, Sarkhan, the Dragonspeaker becomes a legendary 4/4 red Dragon creature with flying and indestructible. (He doesn't lose loyalty while he's not a planeswalker.)
+-3: Sarkhan, the Dragonspeaker deals 4 damage to target creature.
+-6: You get an emblem with ""At the beginning of your draw step, draw two additional cards"" and ""At the beginning of your end step, discard your hand.""
+loyalty: 4
+colors: Red
+color_identity: R
+keywords: None"
+167,Necropouncer,,,"name: Necropouncer
+mana_cost: {4}{B}{B}
+cmc: 6.0
+type_line: Creature — Zombie
+oracle_text: Trample
+Whenever Necropouncer enters the battlefield or attacks, you may return target creature card from your graveyard to the battlefield with a -1/-1 counter on it.
+power: 5
+toughness: 3
+colors: ['B']
+color_identity: ['B']
+keywords: ['Trample']","name: Necropouncer
+mana_cost: {3}{B} 
+cmc: 4
+type_line: Artifact Creature — Cat Zombie
+oracle_text: {3}{B}, {T}: Return Necropouncer from your graveyard to the battlefield tapped.
+power: 3
+toughness: 3
+colors: [] 
+color_identity: [B]
+keywords: []"
+168,Explore the Underdark,,,"name: Explore the Underdark
+mana_cost: {4}{G}
+cmc: 5.0
+type_line: Sorcery
+oracle_text: Search your library for up to two basic land cards and/or Gate cards, put them onto the battlefield tapped, then shuffle.
+You take the initiative.
+power: nan
+toughness: nan
+colors: ['G']
+color_identity: ['G']
+keywords: []","name: Explore the Underdark
+mana_cost: 1G
+cmc: 2
+type_line: Sorcery
+oracle_text: Look at the top five cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+power: 
+toughness: 
+colors: Green
+color_identity: Green
+keywords:"
+169,Cast into Darkness,,,"name: Cast into Darkness
+mana_cost: {2}{B}
+cmc: 3.0
+type_line: Enchantment - Aura
+oracle_text: Enchant creature
+Enchanted creature gets -2/-0 and loses all abilities.
+colors: ['B']
+color_identity: ['B']
+keywords: []","name: Cast into Darkness 
+mana_cost: {1}{B} 
+cmc: 2 
+type_line: Enchantment - Aura 
+oracle_text: Enchant creature
+Enchanted creature gets -2/-0. 
+colors: Black
+color_identity: B
+keywords: None"
+170,Teddy Bear,,,"name: Giant Teddy Bear
+mana_cost: nan
+cmc: 0.0
+type_line: Token Creature — Giant Teddy Bear
+oracle_text: nan
+power: 5
+toughness: 5
+colors: []
+color_identity: []
+keywords: []","name: Teddy Bear
+mana_cost: {1}{G}
+cmc: 2
+type_line: Creature - Bear
+oracle_text: 
+power: 2
+toughness: 2
+colors: Green
+color_identity: G
+keywords:"
+171,Prize Pig,,,"name: Prize Pig
+mana_cost: {1}{G}
+cmc: 2.0
+type_line: Creature — Boar
+oracle_text: Whenever you gain life, put that many ribbon counters on Prize Pig. Then if there are three or more ribbon counters on Prize Pig, remove those counters and untap it.
+power: 0
+toughness: 3
+colors: ['G']
+color_identity: ['G']
+keywords: []","name: Prize Pig
+mana_cost: {3}{G}
+cmc: 4
+type_line: Creature - Boar
+oracle_text: When Prize Pig dies, create a Food token. (It's an artifact with ""{2}, {T}, Sacrifice this artifact: You gain 3 life."")
+power: 3
+toughness: 4
+colors: Green
+color_identity: G
+keywords: None"
+172,Leafdrake Roost,,,"name: Leafdrake Roost
+mana_cost: {3}{G}{G}
+cmc: 5.0
+type_line: Enchantment
+oracle_text: {1}{G}: Create a 2/2 green and blue Drake creature token with flying.
+power: nan
+toughness: nan
+colors: ['G', 'U']
+color_identity: ['G', 'U']
+keywords: []","name: Leafdrake Roost
+mana_cost: {3}{G}{G}
+cmc: 5
+type_line: Enchantment
+oracle_text: At the beginning of your upkeep, you may put a 2/2 green Drakeling creature token with flying onto the battlefield.
+power: 
+toughness: 
+colors: Green
+color_identity: Green
+keywords: Flying"
+173,Tempt with Vengeance,,,"name: Tempt with Vengeance
+mana_cost: {X}{R}
+cmc: 1.0
+type_line: Sorcery
+oracle_text: Tempting offer — Put X 1/1 red Elemental creature tokens with haste onto the battlefield. Each opponent may create X 1/1 red Elemental creature tokens with haste.
+power: nan
+toughness: nan
+colors: ['R']
+color_identity: ['R']
+keywords: ['Tempting offer', 'Haste']","name: Tempt with Vengeance
+mana_cost: XRR
+cmc: 2
+type_line: Sorcery
+oracle_text: Tempting offer — create X 1/1 red Elemental creature tokens with haste. Each opponent may create X 1/1 red Elemental creature tokens with haste.
+power: 
+toughness: 
+colors: Red
+color_identity: Red
+keywords: Tempting Offer"
+174,Scab-Clan Mauler,,,"name: Scab-Clan Mauler
+mana_cost: {R}{G}
+cmc: 2.0
+type_line: Creature — Human Berserker
+oracle_text: Bloodthirst 2 (If an opponent was dealt damage this turn, this creature enters the battlefield with two +1/+1 counters on it.)
+Trample
+power: 1
+toughness: 1
+colors: ['G', 'R']
+color_identity: ['G', 'R']
+keywords: ['Bloodthirst', 'Trample']","name: Scab-Clan Mauler
+mana_cost: {1}{R}{G}
+cmc: 3
+type_line: Creature - Human Warrior
+oracle_text: Trample
+Scab-Clan Mauler's power is equal to the number of instant and sorcery cards in your graveyard.
+power: *
+toughness: *
+colors: Red Green
+color_identity: RG
+keywords: Trample"
+175,Joven,,,"name: Senseless Rage
+mana_cost: {1}{R}
+cmc: 2.0
+type_line: Enchantment — Aura
+oracle_text: Enchant creature
+Enchanted creature gets +2/+2.
+Madness {1}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+power: nan
+toughness: nan
+colors: ['R']
+color_identity: ['R']
+keywords: ['Madness', 'Enchant']","Unfortunately, I need more context or information to provide the exact text of ""Joven"" in the specified format. Can you please provide additional details or clarify which specific version of Joven you are referring to?"
+176,Signature Spells,,,"name: Signature Spells
+mana_cost: {4}{U}{U}
+cmc: 6.0
+type_line: Enchantment
+oracle_text: When Signature Spells enters the battlefield, seek two instant and/or sorcery cards with mana value 3, then exile them. At the beginning of your upkeep, you may copy a card exiled with Signature Spells. You may cast the copy without paying its mana cost.
+power: nan
+toughness: nan
+colors: ['U']
+color_identity: ['U']
+keywords: ['Seek']","Sure, could you please provide me with the name of the specific Signature Spell you would like the information for?"
+177,Devastate,,,"name: Devastate
+mana_cost: {3}{R}{R}
+cmc: 5.0
+type_line: Sorcery
+oracle_text: Devastate deals 5 damage to any target.","name: Devastate
+mana_cost: {X}{R}
+cmc: 1
+type_line: Sorcery
+oracle_text: Devastate deals X damage to any target.
+power: N/A
+toughness: N/A
+colors: Red
+color_identity: Red
+keywords: N/A"
+178,Voracious Typhon,,,"name: Voracious Typhon
+mana_cost: {2}{G}{G}
+cmc: 4.0
+type_line: Creature — Snake Beast
+oracle_text: Escape—{5}{G}{G}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)
+Voracious Typhon escapes with three +1/+1 counters on it.
+power: 4
+toughness: 4
+colors: ['G']
+color_identity: ['G']
+keywords: ['Escape']","name: Voracious Typhon
+mana_cost: {4}{G}{G}
+cmc: 6
+type_line: Creature - Hydra
+oracle_text: Trample
+When Voracious Typhon enters the battlefield, for each {R} color of mana spent to cast it, you may destroy target artifact or enchantment.
+power: 7
+toughness: 7
+colors: Green
+color_identity: G
+keywords: Trample"
+179,Klauth's Will,,,"name: Klauth's Will
+mana_cost: {X}{X}
+cmc: nan
+type_line: Sorcery
+oracle_text: Reveal the top six cards of your library. Put up to three red card(s) from among them into your hand and the rest of the revealed cards into your graveyard.
+power: nan
+toughness: nan
+colors: []
+color_identity: ['R']
+keywords: []","I am unable to provide verbatim texts of copyrighted content. However, I can provide a summary or information about Klauth's Will if you would like. Let me know if you need any other assistance."
+180,Coiling Woodworm,,,"name: Coiling Woodworm
+mana_cost: {1}{G}
+cmc: 2.0
+type_line: Creature — Insect
+oracle_text: Trample
+At the beginning of your upkeep, sacrifice Coiling Woodworm unless you tap a untapped Forest you control.
+power: 3
+toughness: 2
+colors: ['G']
+color_identity: ['G']
+keywords: ['Trample']","name: Coiling Woodworm
+mana_cost: {3}{G}
+cmc: 4
+type_line: Creature - Insect
+oracle_text: {T}: Target player mill two cards.
+power: 2
+toughness: 4
+colors: Green
+color_identity: Green
+keywords: None"
+181,"Rem Karolus, Stalwart Slayer",,,"name: Rem Karolus, Stalwart Slayer
+mana_cost: {1}{R}{W}
+cmc: 3.0
+type_line: Legendary Creature — Human Knight
+oracle_text: Flying, haste
+If a spell would deal damage to you or another permanent you control, prevent that damage.
+If a spell would deal damage to an opponent or a permanent an opponent controls, it deals that much damage plus 1 instead.
+power: 2
+toughness: 3
+colors: ['R', 'W']
+color_identity: ['R', 'W']
+keywords: ['Flying', 'Haste']","name: Rem Karolus, Stalwart Slayer
+mana_cost: {3}{W}{W}
+cmc: 5
+type_line: Legendary Creature - Human Knight
+oracle_text: First strike, vigilance, protection from Vampires, from Werewolves, and from Zombies
+power: 4
+toughness: 3
+colors: White
+color_identity: White
+keywords: First strike, vigilance, protection"
+182,Urza's Hot Tub,,,"name: Urza's Hot Tub
+mana_cost: {2}
+cmc: 2.0
+type_line: Artifact
+oracle_text: {2}, Discard a card: Search your library for a card that shares a complete word in its name with the discarded card, reveal it, put it into your hand, then shuffle.
+power: nan
+toughness: nan
+colors: []
+color_identity: []
+keywords: []","name: Urza's Hot Tub
+mana_cost: 4
+cmc: 4
+type_line: Artifact
+oracle_text: {T}: Add {C}. 
+{4}, {T}: Each player gains control of all creatures they own.
+power: 
+toughness: 
+colors: 
+color_identity: 
+keywords:"
+183,Man of Measure,,,"name: Man of Measure
+mana_cost: {1}{W}{W}
+cmc: 3.0
+type_line: Creature — Human Knight
+oracle_text: As long as you're shorter than an opponent, Man of Measure gets +0/+1 and has first strike.
+As long as you're taller than an opponent, Man of Measure gets +1/+0.
+power: 2
+toughness: 2
+colors: ['W']
+color_identity: ['W']
+keywords: []","name: Man of Measure
+mana_cost: {2}{W}{W}
+cmc: 4
+type_line: Creature - Human Knight
+oracle_text: When Man of Measure enters the battlefield, put a +1/+1 counter on it for each mile between your location and the nearest known point of interest in the state you're in.
+power: 2
+toughness: 2
+colors: White
+color_identity: White
+keywords: None"
+184,"Ojer Axonil, Deepest Might // Temple of Power",,,"name: Ojer Axonil, Deepest Might // Temple of Power
+mana_cost: nan
+cmc: 4.0
+type_line: Legendary Creature — God // Land
+oracle_text: nan
+power: nan
+toughness: nan
+colors: nan
+color_identity: ['R']
+keywords: ['Transform', 'Trample']","name: Ojer Axonil, Deepest Might // Temple of Power
+mana_cost: {5}{U}{U}
+cmc: 7
+type_line: Legendary Creature // Land
+oracle_text: Islandwalk
+Whenever Ojer Axonil, Deepest Might deals combat damage to a player, draw a card.
+{T}: Add {W}{U}{B}{R}{G}.
+power: 6
+toughness: 6
+colors: Blue
+color_identity: Blue
+keywords: Islandwalk"
+185,Enduring Bondwarden,,,"name: Enduring Bondwarden
+mana_cost: {3}{W}
+cmc: 4.0
+type_line: Creature — Human Soldier
+oracle_text: Vigilance (Attacking doesn't cause this creature to tap.)
+When Enduring Bondwarden dies, put a +1/+1 counter on target creature you control.
+power: 3
+toughness: 3
+colors: ['W']
+color_identity: ['W']
+keywords: ['Vigilance']","name: Enduring Bondwarden
+mana_cost: {3}{G}
+cmc: 4
+type_line: Creature - Human Warrior
+oracle_text: Vigilance
+Whenever Enduring Bondwarden attacks, exile another target creature you control until Enduring Bondwarden leaves the battlefield. 
+power: 2
+toughness: 5
+colors: Green
+color_identity: Green
+keywords: Vigilance"
+186,Fleetwheel Cruiser,,,"name: Fleetwheel Cruiser
+mana_cost: {4}
+cmc: 4.0
+type_line: Artifact — Vehicle
+oracle_text: Haste
+Trample
+Whenever Fleetwheel Cruiser attacks, it gets +2/+0 until end of turn.
+Crew 2
+power: nan
+toughness: nan
+colors: []
+color_identity: []
+keywords: ['Haste', 'Trample', 'Crew']","name: Fleetwheel Cruiser
+mana_cost: {2}
+cmc: 2
+type_line: Artifact — Vehicle
+oracle_text: Trample, haste
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
+power: 5
+toughness: 3
+colors: 
+color_identity: 
+keywords: Trample, Haste"
+187,Leaf Arrow,,,"name: Leaf Arrow
+mana_cost: {G}
+cmc: 1.0
+type_line: Instant
+oracle_text: Leaf Arrow deals 3 damage to target creature with flying.
+power: nan
+toughness: nan
+colors: ['G']
+color_identity: ['G']
+keywords: []","name: Leaf Arrow
+mana_cost: {G}
+cmc: 1
+type_line: Instant
+oracle_text: Leaf Arrow deals 3 damage to target creature with flying.
+power: 
+toughness: 
+colors: Green
+color_identity: Green
+keywords: []"
+188,Staff of the Flame Magus,,,"name: Staff of the Flame Magus
+mana_cost: {3}
+cmc: 3.0
+type_line: Artifact
+oracle_text: Whenever you cast a red spell or a Mountain enters the battlefield under your control, you gain 1 life.
+power: nan
+toughness: nan
+colors: []
+color_identity: []
+keywords: []","name: Staff of the Flame Magus
+mana_cost: {3}
+cmc: 3
+type_line: Artifact
+oracle_text: {T}: Add {R}.
+Whenever you cast a red spell or a Mountain enters the battlefield under your control, you gain 1 life.
+power: 
+toughness: 
+colors: 
+color_identity: 
+keywords:"
+189,Contractual Safeguard,,,"name: Contractual Safeguard 
+mana_cost: {2}{W} 
+cmc: 3.0
+type_line: Instant 
+oracle_text: Addendum — If you cast this spell during your main phase, put a shield counter on a creature you control. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
+Choose a kind of counter on a creature you control. Put a counter of that kind on each other creature you control. 
+power: nan 
+toughness: nan 
+colors: ['W'] 
+color_identity: ['W'] 
+keywords: ['Addendum']","name: Contractual Safeguard
+mana_cost: {2}{W}
+cmc: 3
+type_line: Enchantment
+oracle_text: When Contractual Safeguard enters the battlefield, choose a creature type. Creatures of the chosen type have protection from creatures of the chosen type.
+colors: White
+color_identity: W
+keywords: Protection"
+190,Cyclone Sire,,,"name: Cyclone Sire
+mana_cost: {4}{U}
+cmc: 5.0
+type_line: Creature — Elemental
+oracle_text: Flying
+When Cyclone Sire enters the battlefield, you may have it deal 3 damage to target creature with flying.
+power: 3
+toughness: 4
+colors: ['U']
+color_identity: ['U']
+keywords: ['Flying']","name: Cyclone Sire
+mana_cost: {3}{U}{U}
+cmc: 5
+type_line: Creature - Elemental
+oracle_text: Flying
+When Cyclone Sire enters the battlefield, each opponent reveals the top card of their library. You may put a land card from among those cards onto the battlefield under your control.
+power: 3
+toughness: 4
+colors: blue
+color_identity: U
+keywords: Flying"
+191,Soliton,,,"name: Soliton
+mana_cost: {3}{U}
+cmc: 4.0
+type_line: Artifact Creature — Construct
+oracle_text: {U}: Untap Soliton.
+Soliton can't attack or block alone.
+power: 3
+toughness: 4
+colors: []
+color_identity: ['U']
+keywords: []","name: Soliton
+mana_cost: {3}{U}
+cmc: 4
+type_line: Artifact Creature - Construct
+oracle_text: {3}{U}: Untap Soliton.
+power: 3
+toughness: 4
+colors: Blue
+color_identity: Blue
+keywords: None"
+192,Curate,,,"name: Curate
+mana_cost: {1}{U}
+cmc: 2.0
+type_line: Sorcery
+oracle_text: Look at the top two cards of your library. Put any number of them into your graveyard and the rest back on top of your library in any order.
+power: nan
+toughness: nan
+colors: ['U']
+color_identity: ['U']
+keywords: []","name: Curate
+mana_cost: {U}
+cmc: 1
+type_line: Sorcery
+oracle_text: Look at the top two cards of your library. Put any number of them into your graveyard and the rest back on top of your library in any order.
+power: 
+toughness: 
+colors: Blue
+color_identity: Blue
+keywords:"
+193,Nomads' Assembly,,,"name: Nomads' Assembly
+mana_cost: {5}{W}{W}
+cmc: 7.0
+type_line: Sorcery
+oracle_text: Create a 1/1 white Kor Warrior creature token for each creature you control. 
+power: nan
+toughness: nan
+colors: ['W']
+color_identity: ['W']
+keywords: []","name: Nomads' Assembly
+mana_cost: {5}{W}{W}
+cmc: 7
+type_line: Sorcery
+oracle_text: Create a 1/1 white Kor Soldier creature token for each creature you control.
+power: 
+toughness: 
+colors: White
+color_identity: White
+keywords:"
+194,Nihiloor,,,"name: Nihilith
+mana_cost: {4}{B}{B}
+cmc: 6.0
+type_line: Creature — Horror
+oracle_text: Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
+Suspend 7—{1}{B} (Rather than cast this card from your hand, you may pay {1}{B} and exile it with seven time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
+Whenever a card is put into an opponent's graveyard from anywhere, if Nihilith is suspended, you may remove a time counter from Nihilith.
+power: 4
+toughness: 4
+colors: ['B']
+color_identity: ['B']
+keywords: ['Suspend', 'Fear']","name: Nihiloor
+mana_cost: {3}{U}
+cmc: 4
+type_line: Creature - Mind Flayer
+oracle_text: Whenever Nihiloor attacks, target an opponent to mill two cards.
+power: 1
+toughness: 4
+colors: Blue
+color_identity: U
+keywords: Mind Flayer"
+195,Ayesha Tanaka,,,"name: Ayesha Tanaka
+mana_cost: {W}{W}{U}{U}
+cmc: 4.0
+type_line: Legendary Creature — Human Artificer
+oracle_text: Banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
+{T}: Counter target activated ability from an artifact source unless that ability's controller pays {W}. (Mana abilities can't be targeted.)
+power: 2
+toughness: 2
+colors: ['U', 'W']
+color_identity: ['U', 'W']
+keywords: ['Banding']","name: Ayesha Tanaka
+mana_cost: {3}{W}
+cmc: 4
+type_line: Legendary Creature - Human Artificer
+oracle_text: {2}{W}, {T}: Destroy all tapped artifacts.
+power: 2
+toughness: 2
+colors: White
+color_identity: White
+keywords: Legendary"
+196,Soulstinger,,,"name: Soulstinger
+mana_cost: {3}{B}
+cmc: 4.0
+type_line: Creature — Scorpion Demon
+oracle_text: When Soulstinger enters the battlefield, put two -1/-1 counters on target creature you control.
+When Soulstinger dies, you may put a -1/-1 counter on target creature for each -1/-1 counter on Soulstinger.
+power: 4
+toughness: 5
+colors: ['B']
+color_identity: ['B']
+keywords: []","name: Soulstinger
+mana_cost: {3}{B}
+cmc: 4
+type_line: Creature - Scorpion Demon
+oracle_text: When Soulstinger enters the battlefield, put two -1/-1 counters on target creature you control.
+When Soulstinger dies, you may put a -1/-1 counter on target creature for each -1/-1 counter on Soulstinger.
+power: 4
+toughness: 5
+colors: Black
+color_identity: B
+keywords: None"
+197,Storm Strike,,,"name: Storm Strike
+mana_cost: {1}{R}
+cmc: 2.0
+type_line: Instant
+oracle_text: Target creature gets +1/+0 and gains first strike until end of turn.","name: Storm Strike
+mana_cost: {R}
+cmc: 1
+type_line: Instant
+oracle_text: Target creature gets +1/+0 and gains first strike until end of turn.
+power:
+toughness:
+colors: Red
+color_identity: Red
+keywords: First Strike"
+198,Magus of the Bazaar,,,"name: Magus of the Bazaar
+mana_cost: {U}
+cmc: 1.0
+type_line: Creature — Human Wizard
+oracle_text: {T}: Draw two cards, then discard three cards.
+power: 0
+toughness: 1
+colors: ['U']
+color_identity: ['U']
+keywords: []","name: Magus of the Bazaar
+mana_cost: {U}{U}
+cmc: 2
+type_line: Creature - Human Wizard
+oracle_text: {T}: Draw two cards, then discard three cards.
+power: 0
+toughness: 1
+colors: Blue
+color_identity: Blue
+keywords:"
+199,Hindering Light,,,"name: Hindering Light
+mana_cost: {W}{U}
+cmc: 2.0
+type_line: Instant
+oracle_text: Counter target spell that targets you or a permanent you control.
+Draw a card.
+power: nan
+toughness: nan
+colors: ['U', 'W']
+color_identity: ['U', 'W']
+keywords: []","name: Hindering Light
+mana_cost: {W}{U}
+cmc: 2
+type_line: Instant
+oracle_text: Counter target creature spell. Its controller can't cast spells this turn.
+power: 
+toughness: 
+colors: Blue, White
+color_identity: Blue, White
+keywords:"
