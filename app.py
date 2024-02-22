@@ -19,10 +19,10 @@ def main():
                     display_card_info(original_row.iloc[0], "Original Card")
                 with rag_card_col:
                     mirrored_info_rag, query_found_rag = get_mirrored_card_info(card_name, RAG=True)
-                    display_card_info(mirrored_info_rag, "RAG Card", query_found_rag)
+                    display_card_info(mirrored_info_rag, "RAG Model Card", query_found_rag)
                 with non_rag_card_col:
                     mirrored_info_non_rag, query_found_non_rag = get_mirrored_card_info(card_name, RAG=False)
-                    display_card_info(mirrored_info_non_rag, "Non-RAG Card", query_found_non_rag)
+                    display_card_info(mirrored_info_non_rag, "Baseline Model Card", query_found_non_rag)
             else:
                 st.warning("Card not found in the database.")
     else:
