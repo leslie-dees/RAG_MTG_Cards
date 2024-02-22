@@ -6,6 +6,7 @@ from angle_emb import AnglE
 import os
 import configparser
 from openai import OpenAI
+import re
 
 config = configparser.ConfigParser()
 config.read('config.ini')
@@ -37,15 +38,25 @@ def semantic_search(query, vector_db_name=vector_db_name, number_chunks = 5):
     top_matches = similarities[:number_chunks]
 
     conn.close()
+    
+    return_matches = [(match[1], match[2]) for match in top_matches]
 
-    return [(match[1], match[2]) for match in top_matches]
+    query_found = False
+    pattern = re.compile(r'name: (.+?)\n')
+    for match in return_matches:
+        card_names = pattern.findall(match[0])
+        if query in card_names:
+            query_found = True
+            break
+        
+    return return_matches, query_found
 
 def rag_query(query, RAG=True):
     chunks = semantic_search(query, vector_db_name, 3)
     
     prompt_rag = ""
     if RAG:
-        chunks = semantic_search(query, vector_db_name, 3)
+        chunks, query_found = semantic_search(query, vector_db_name, 3)
 
         prompt_rag = ""
         for chunk in chunks:
@@ -64,6 +75,7 @@ def rag_query(query, RAG=True):
         Provide me with the exact text of {query} in the format of :
         \nname: \nmana_cost: \ncmc: \ntype_line: \noracle_text: \npower: \ntoughness: \ncolors: \ncolor_identity: \nkeywords: [/INST]
         """
+        query_found = None
 
     
     client = OpenAI(api_key = OPENAI_API_KEY)
@@ -74,4 +86,4 @@ def rag_query(query, RAG=True):
         {"role": "user", "content": prompt},
       ]
     )
-    return response.choices[0].message.content
+    return response.choices[0].message.content, query_found
